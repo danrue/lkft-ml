@@ -1,0 +1,119 @@
+#!/usr/bin/python3
+
+import json
+import os
+import os.path
+import requests
+
+squad = 'https://qa-reports.linaro.org'
+api = 'api'
+cache_path = './haystack'
+projects = {
+    '4.4': '40',
+    '4.9': '23',
+    '4.14': '58',
+    '4.19': '135',
+    'mainline': '22',
+}
+
+def urljoiner(*args):
+    '''
+    Joins given arguments into an url. Trailing but not leading slashes are
+    stripped for each argument.
+    '''
+    return "/".join(map(lambda x: str(x).rstrip('/'), args))
+
+def url_to_fs(url):
+    ''' Given a squad api url, return a filesystem path '''
+    return url.split(urljoiner(squad, api)+'/')[1].rstrip('/') + '.json'
+
+class qareports():
+    def __init__(self, cache_path):
+        self.cache_path = cache_path
+
+    def cache_file_from_url(self, url):
+        return os.path.join(os.path.realpath(self.cache_path), url_to_fs(url))
+
+    def read_from_cache(self, url):
+        cache_file = self.cache_file_from_url(url)
+        if not os.path.exists(cache_file):
+            return None
+
+        print(cache_file)
+        with open(cache_file, 'r') as f:
+            return json.load(f)
+
+    def save_to_cache(self, url, data):
+        cache_file = self.cache_file_from_url(url)
+        if not os.path.exists(os.path.dirname(cache_file)):
+            os.makedirs(os.path.dirname(cache_file))
+        with open(cache_file, 'w') as f:
+            json.dump(data, f, indent=2)
+
+    def get_url(self, url):
+        print(url)
+        r = requests.get(url)
+        r.raise_for_status()
+        return r
+
+    def get_object(self, url, cache=True):
+        '''
+        Retrieve a url. If it is cached, serve from cache. If not, save to cache
+        '''
+
+        result = self.read_from_cache(url)
+        if result is not None:
+            return result
+
+        result = self.get_url(url).json()
+        self.save_to_cache(url, result)
+
+        return result
+
+    def get_objects(self, url):
+        '''
+        Retrieve all objects
+
+        Expects a url with 'count', 'next', 'results' fields.
+        '''
+        r = self.get_url(url)
+        for obj in r.json()['results']:
+            yield self.get_object(obj['url'])
+        if r.json()['next'] is not None:
+            yield self.get_objects(r.json()['next'])
+
+    def get_leaf_objects(self, url):
+        '''
+        Retrieve test objects. Consolidate into a single json file.
+        '''
+
+        result = self.read_from_cache(url)
+        if result is not None:
+            return result
+
+        results = []
+        r = self.get_url(url)
+        for obj in r.json()['results']:
+            results.append(obj)
+        while r.json()['next'] is not None:
+            r = self.get_url(r.json()['next'])
+            for obj in r.json()['results']:
+                results.append(obj)
+
+        self.save_to_cache(url, results)
+
+client = qareports(cache_path)
+for project, project_number in projects.items():
+    result = client.get_object(urljoiner(squad, api, 'projects', project_number))
+    for build in client.get_objects(result['builds']):
+        status = client.get_object(build['status'])
+        metadata = client.get_object(build['metadata'])
+        for testrun in client.get_objects(build['testruns']):
+            #tests_file = client.get_object(testrun['tests_file'])
+            #metrics_file = client.get_object(testrun['metrics_file'])
+            #log_file = client.get_object(testrun['log_file'])
+            tests = client.get_leaf_objects(testrun['tests'])
+            tests = client.get_leaf_objects(testrun['metrics'])
+        for testjob in client.get_objects(build['testjobs']):
+            pass
+
