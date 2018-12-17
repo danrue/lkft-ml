@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 -u
 
 import json
 import os
@@ -80,11 +80,11 @@ class qareports():
         for obj in r.json()['results']:
             yield self.get_object(obj['url'])
         if r.json()['next'] is not None:
-            yield self.get_objects(r.json()['next'])
+            yield from self.get_objects(r.json()['next'])
 
     def get_leaf_objects(self, url):
         '''
-        Retrieve test objects. Consolidate into a single json file.
+        Retrieve objects which are paged and collapse into a single list.
         '''
 
         result = self.read_from_cache(url)
@@ -106,6 +106,8 @@ client = qareports(cache_path)
 for project, project_number in projects.items():
     result = client.get_object(urljoiner(squad, api, 'projects', project_number))
     for build in client.get_objects(result['builds']):
+        if not build.get('finished', False):
+            continue
         status = client.get_object(build['status'])
         metadata = client.get_object(build['metadata'])
         for testrun in client.get_objects(build['testruns']):
@@ -113,7 +115,7 @@ for project, project_number in projects.items():
             #metrics_file = client.get_object(testrun['metrics_file'])
             #log_file = client.get_object(testrun['log_file'])
             tests = client.get_leaf_objects(testrun['tests'])
-            tests = client.get_leaf_objects(testrun['metrics'])
+            metrics = client.get_leaf_objects(testrun['metrics'])
         for testjob in client.get_objects(build['testjobs']):
             pass
 
