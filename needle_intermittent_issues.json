@@ -1,0 +1,412 @@
+[
+  {
+    "test_names": [
+      "kselftest/net_reuseport_bpf_numa",
+      "kselftest-vsyscall-mode-none/net_reuseport_bpf_numa",
+      "kselftest-vsyscall-mode-native/net_reuseport_bpf_numa"
+    ],
+    "notes": "LKFT: linux-mainline: x15: kselfteest NET reuseport_bpf_numa failed\n",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3501",
+    "active": true,
+    "intermittent": true,
+    "matrix_apply": [
+      {
+        "environments": [
+          "dragonboard-410c",
+          "hi6220-hikey",
+          "i386",
+          "juno-r2",
+          "qemu_x86_64",
+          "qemu_i386",
+          "qemu_arm",
+          "qemu_arm64",
+          "x15",
+          "x86"
+        ],
+        "projects": [
+          "lkft/linux-stable-rc-4.9-oe",
+          "lkft/linux-stable-rc-4.4-oe",
+          "lkft/linaro-hikey-stable-rc-4.4-oe"
+        ]
+      },
+      {
+        "environments": [
+          "x15",
+          "qemu_arm"
+        ],
+        "projects": [
+          "lkft/linux-mainline-oe",
+          "lkft/linux-stable-rc-4.19-oe",
+          "lkft/linux-stable-rc-4.18-oe",
+          "lkft/linux-stable-rc-4.14-oe",
+          "lkft/linux-stable-rc-4.9-oe",
+          "lkft/linux-stable-rc-4.4-oe",
+          "lkft/linaro-hikey-stable-rc-4.4-oe"
+        ]
+      },
+      {
+        "environments": [
+          "x86"
+        ],
+        "projects": [
+          "lkft/linux-mainline-oe"
+        ]
+      }
+    ]
+  },
+  {
+    "environments": [
+      "dragonboard-410c",
+      "x15",
+      "qemu_x86_64",
+      "qemu_arm64",
+      "qemu_arm",
+      "qemu_i386"
+    ],
+    "notes": "LKFT: linux-mainline, 4.9 and 4.4: x15: rtcpie - PIE delta error: 0.018197 should be close to 0.015625\n",
+    "projects": [
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_names": [
+      "kselftest/timers_rtcpie"
+    ],
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3402",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "test_name": "kselftest/x86_sigreturn_64",
+    "notes": "LKFT: kselftest: sigreturn_64 intermittent failure on qemu_x86_64\n",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3684",
+    "active": true,
+    "intermittent": true,
+    "matrix_apply": [
+      {
+        "environments": [
+          "qemu_x86_64"
+        ],
+        "projects": [
+          "lkft/linux-mainline-oe",
+          "lkft/linux-stable-rc-4.19-oe",
+          "lkft/linux-stable-rc-4.18-oe",
+          "lkft/linux-stable-rc-4.14-oe",
+          "lkft/linux-stable-rc-4.9-oe",
+          "lkft/linux-stable-rc-4.4-oe",
+          "lkft/linaro-hikey-stable-rc-4.4-oe"
+        ]
+      },
+      {
+        "environments": [
+          "x86",
+          "qemu_x86_64"
+        ],
+        "projects": [
+          "lkft/linux-stable-rc-4.4-oe"
+        ]
+      }
+    ]
+  },
+  {
+    "environments": [
+      "dragonboard-410c",
+      "hi6220-hikey",
+      "x86"
+    ],
+    "notes": "LKFT: LKFT: mainline: dragon board 410c: proc read failed - ICMPv6: process read is using deprecated sysctl\n",
+    "projects": [
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_name": "kselftest/proc_read",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3744",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "environments": [
+      "dragonboard-410c",
+      "hi6220-hikey",
+      "i386",
+      "juno-r2",
+      "qemu_x86_64",
+      "qemu_i386",
+      "qemu_arm",
+      "qemu_arm64",
+      "x15",
+      "x86"
+    ],
+    "notes": "LKFT: kselftest: test_progs: libbpf: failed to open ./test_pkt_access.o: No such file or directory\n",
+    "projects": [
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_names": [
+      "kselftest/bpf_test_sock_addr.sh",
+      "kselftest-vsyscall-mode-none/bpf_test_sock_addr.sh",
+      "kselftest-vsyscall-mode-native/bpf_test_sock_addr.sh",
+      "kselftest/bpf_test_sock",
+      "kselftest-vsyscall-mode-none/bpf_test_sock",
+      "kselftest-vsyscall-mode-native/bpf_test_sock"
+    ],
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3912",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "test_names": [
+      "kselftest/bpf_test_skb_cgroup_id.sh",
+      "kselftest-vsyscall-mode-none/bpf_test_skb_cgroup_id.sh",
+      "kselftest-vsyscall-mode-native/bpf_test_skb_cgroup_id.sh"
+    ],
+    "notes": "bpf: test_skb_cgroup_id.sh Error fetching program/map FAILs on 4.19, 4.18, 4.14, 4.9 and 4.4 kernels on all devices. PASS on mainline and next for arm64, arm and i386. FAILs on x86_64 and qemu_x86_64 for all kernel branches.\n",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3975",
+    "active": true,
+    "intermittent": true,
+    "matrix_apply": [
+      {
+        "environments": [
+          "x86",
+          "qemu_x86_64"
+        ],
+        "projects": [
+          "lkft/linux-mainline-oe",
+          "lkft/linux-stable-rc-4.19-oe",
+          "lkft/linux-stable-rc-4.18-oe",
+          "lkft/linux-stable-rc-4.14-oe",
+          "lkft/linux-stable-rc-4.9-oe",
+          "lkft/linux-stable-rc-4.4-oe",
+          "lkft/linaro-hikey-stable-rc-4.4-oe"
+        ]
+      },
+      {
+        "environments": [
+          "dragonboard-410c",
+          "hi6220-hikey",
+          "i386",
+          "juno-r2",
+          "qemu_x86_64",
+          "qemu_i386",
+          "qemu_arm",
+          "qemu_arm64",
+          "x15",
+          "x86"
+        ],
+        "projects": [
+          "lkft/linux-stable-rc-4.19-oe",
+          "lkft/linux-stable-rc-4.18-oe",
+          "lkft/linux-stable-rc-4.14-oe",
+          "lkft/linux-stable-rc-4.9-oe",
+          "lkft/linux-stable-rc-4.4-oe",
+          "lkft/linaro-hikey-stable-rc-4.4-oe"
+        ]
+      }
+    ]
+  },
+  {
+    "environments": [
+      "qemu_arm",
+      "qemu_i386",
+      "qemu_x86_64",
+      "x15",
+      "x86"
+    ],
+    "notes": "bpf: test_socket_cookie failed on x86_64 and arm32 libbpf: ./socket_cookie_prog.o doesn't provide kernel version (test_socket_cookie.c:154: errno: No such file or directory) Failed to load ./socket_cookie_prog.o\n",
+    "projects": [
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_names": [
+      "kselftest/bpf_test_socket_cookie",
+      "kselftest-vsyscall-mode-none/bpf_test_socket_cookie",
+      "kselftest-vsyscall-mode-native/bpf_test_socket_cookie"
+    ],
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3976",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "environments": [
+      "qemu_i386"
+    ],
+    "notes": "x86: syscall_arg_fault_32 intermittent failure on qemu_i386\n",
+    "projects": [
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_name": "kselftest/x86_syscall_arg_fault_32",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=4025",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "environments": [
+      "i386",
+      "qemu_i386",
+      "qemu_arm",
+      "x15"
+    ],
+    "notes": "Test is inconsistent on x15 Intermittent failures on qemu_arm and i386\n",
+    "projects": [
+      "lkft/linux-next-oe",
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_name": "ltp-syscalls-tests/fcntl36",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3339",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "environments": [
+      "i386",
+      "qemu_i386",
+      "qemu_x86_64",
+      "x86"
+    ],
+    "notes": "LKFT: LTP: cve-2015-3290 failed intermittently on qemu_x86_64\n",
+    "projects": [
+      "lkft/linux-next-oe",
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_name": "ltp-cve-tests/cve-2015-3290",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3910",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "environments": [
+      "dragonboard-410c",
+      "hi6220-hikey",
+      "i386",
+      "juno-r2",
+      "qemu_x86_64",
+      "qemu_i386",
+      "qemu_arm",
+      "qemu_arm64",
+      "x15",
+      "x86"
+    ],
+    "notes": "LKFT: LTP: open posix: clock_settime_8-1 intermittent failures on all device\n",
+    "projects": [
+      "lkft/linux-next-oe",
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_name": "ltp-open-posix-tests/clock_settime_8-1",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3965",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "environments": [
+      "hi6220-hikey"
+    ],
+    "notes": "LKFT: hikey: LTP: FS: read_all: kernel BUG: sleeping function called from invalid context percpu-rwsem.h:34 - regmap_mmio_read32le+0x24/0x38\n",
+    "projects": [
+      "lkft/linux-next-oe",
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_name": "ltp-fs-tests/read_all_sys",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3903",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "environments": [
+      "qemu_arm",
+      "qemu_arm64"
+    ],
+    "notes": "LKFT: LTP: cve-2017-2671 times out for mainline in qemu_arm and qemu_arm64. consider known issue until qemu in arm has accel.\n",
+    "projects": [
+      "lkft/linux-next-oe",
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_name": "ltp-cve-tests/cve-2017-2671",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=4024",
+    "active": true,
+    "intermittent": true
+  },
+  {
+    "environments": [
+      "dragonboard-410c",
+      "hi6220-hikey",
+      "i386",
+      "juno-r2",
+      "qemu_x86_64",
+      "qemu_i386",
+      "qemu_arm",
+      "qemu_arm64",
+      "x15",
+      "x86"
+    ],
+    "notes": "LKFT: LTP: open posix: condvar_pthread_cond_wait_1 intermittent failures on all devices\n",
+    "projects": [
+      "lkft/linux-next-oe",
+      "lkft/linux-mainline-oe",
+      "lkft/linux-stable-rc-4.19-oe",
+      "lkft/linux-stable-rc-4.18-oe",
+      "lkft/linux-stable-rc-4.14-oe",
+      "lkft/linux-stable-rc-4.9-oe",
+      "lkft/linux-stable-rc-4.4-oe",
+      "lkft/linaro-hikey-stable-rc-4.4-oe"
+    ],
+    "test_name": "ltp-open-posix-tests/condvar_pthread_cond_wait_1",
+    "url": "https://bugs.linaro.org/show_bug.cgi?id=3973",
+    "active": true,
+    "intermittent": true
+  }
+]

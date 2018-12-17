@@ -101,6 +101,7 @@ class qareports():
                 results.append(obj)
 
         self.save_to_cache(url, results)
+        return results
 
 client = qareports(cache_path)
 for project, project_number in projects.items():
@@ -111,6 +112,8 @@ for project, project_number in projects.items():
         status = client.get_object(build['status'])
         metadata = client.get_object(build['metadata'])
         for testrun in client.get_objects(build['testruns']):
+            # We could capture the _files too, but they're not json
+            # so we'd need to modify get_object to handle non-json.
             #tests_file = client.get_object(testrun['tests_file'])
             #metrics_file = client.get_object(testrun['metrics_file'])
             #log_file = client.get_object(testrun['log_file'])
