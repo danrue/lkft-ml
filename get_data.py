@@ -27,7 +27,7 @@ def url_to_fs(url):
     ''' Given a squad api url, return a filesystem path '''
     return url.split(urljoiner(squad, api)+'/')[1].rstrip('/') + '.json'
 
-class qareports():
+class qareports:
     def __init__(self, cache_path):
         self.cache_path = cache_path
 
@@ -103,22 +103,24 @@ class qareports():
         self.save_to_cache(url, results)
         return results
 
-client = qareports(cache_path)
-for project, project_number in projects.items():
-    result = client.get_object(urljoiner(squad, api, 'projects', project_number))
-    for build in client.get_objects(result['builds']):
-        if not build.get('finished', False):
-            continue
-        status = client.get_object(build['status'])
-        metadata = client.get_object(build['metadata'])
-        for testrun in client.get_objects(build['testruns']):
-            # We could capture the _files too, but they're not json
-            # so we'd need to modify get_object to handle non-json.
-            #tests_file = client.get_object(testrun['tests_file'])
-            #metrics_file = client.get_object(testrun['metrics_file'])
-            #log_file = client.get_object(testrun['log_file'])
-            tests = client.get_leaf_objects(testrun['tests'])
-            metrics = client.get_leaf_objects(testrun['metrics'])
-        for testjob in client.get_objects(build['testjobs']):
-            pass
+
+if __name__ == '__main__':
+    client = qareports(cache_path)
+    for project, project_number in projects.items():
+        result = client.get_object(urljoiner(squad, api, 'projects', project_number))
+        for build in client.get_objects(result['builds']):
+            if not build.get('finished', False):
+                continue
+            status = client.get_object(build['status'])
+            metadata = client.get_object(build['metadata'])
+            for testrun in client.get_objects(build['testruns']):
+                # We could capture the _files too, but they're not json
+                # so we'd need to modify get_object to handle non-json.
+                #tests_file = client.get_object(testrun['tests_file'])
+                #metrics_file = client.get_object(testrun['metrics_file'])
+                #log_file = client.get_object(testrun['log_file'])
+                tests = client.get_leaf_objects(testrun['tests'])
+                metrics = client.get_leaf_objects(testrun['metrics'])
+            for testjob in client.get_objects(build['testjobs']):
+                pass
 
