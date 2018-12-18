@@ -76,8 +76,8 @@ lists of known intermittent issues from
 It could also retrieve them from the qa-reports API, but this author did not
 think of that at the time.
 
-Finally, find_intermittent_issues.py is a very naive example us traversing
+Finally, find_intermittent_issues.py is a very naive example of traversing
 through the haystack to try to discover intermittent failures using hard coded
 thresholds. For example, it looks at the 10 most recent builds and if any test
-has changed state (from good to bad or bad to good) more than <threshold>
-times, it will be reported an intermittent issue.
+has changed state (from good to bad or bad to good) more than 2 times in a
+given environment, it will be printed as an intermittent issue.
