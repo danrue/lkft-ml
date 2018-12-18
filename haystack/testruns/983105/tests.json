@@ -1,0 +1,26 @@
+[
+  {
+    "id": 92459335,
+    "name": "ltp-filecaps-tests/Filecaps",
+    "short_name": "Filecaps",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 924,
+    "metadata": 15668,
+    "known_issues": []
+  },
+  {
+    "id": 92459336,
+    "name": "boot/x15",
+    "short_name": "x15",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 1345,
+    "known_issues": []
+  }
+]

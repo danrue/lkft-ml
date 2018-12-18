@@ -1,0 +1,122 @@
+[
+  {
+    "id": 110272721,
+    "name": "ltp-cpuhotplug-tests/cpuhotplug04",
+    "short_name": "cpuhotplug04",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 6254,
+    "metadata": 186337,
+    "known_issues": []
+  },
+  {
+    "id": 110272722,
+    "name": "ltp-cpuhotplug-tests/cpuhotplug06",
+    "short_name": "cpuhotplug06",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 6254,
+    "metadata": 186339,
+    "known_issues": []
+  },
+  {
+    "id": 110272723,
+    "name": "ltp-cpuhotplug-tests/cpuhotplug05",
+    "short_name": "cpuhotplug05",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 6254,
+    "metadata": 186335,
+    "known_issues": []
+  },
+  {
+    "id": 110272724,
+    "name": "ltp-cpuhotplug-tests/cpuhotplug02",
+    "short_name": "cpuhotplug02",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 6254,
+    "metadata": 186336,
+    "known_issues": []
+  },
+  {
+    "id": 110272725,
+    "name": "ltp-fcntl-locktests-tests/FCNTL_LOCKTESTS",
+    "short_name": "FCNTL_LOCKTESTS",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 923,
+    "metadata": 15666,
+    "known_issues": []
+  },
+  {
+    "id": 110272726,
+    "name": "boot/qemu",
+    "short_name": "qemu",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 79882,
+    "known_issues": []
+  },
+  {
+    "id": 110272727,
+    "name": "ltp-cpuhotplug-tests/cpuhotplug03",
+    "short_name": "cpuhotplug03",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 6254,
+    "metadata": 186338,
+    "known_issues": []
+  },
+  {
+    "id": 110272728,
+    "name": "ltp-cap_bounds-tests/Cap_bounds",
+    "short_name": "Cap_bounds",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 919,
+    "metadata": 15538,
+    "known_issues": []
+  },
+  {
+    "id": 110272729,
+    "name": "ltp-cpuhotplug-tests/cpuhotplug07",
+    "short_name": "cpuhotplug07",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 6254,
+    "metadata": 186340,
+    "known_issues": []
+  },
+  {
+    "id": 110272730,
+    "name": "ltp-filecaps-tests/Filecaps",
+    "short_name": "Filecaps",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 924,
+    "metadata": 15668,
+    "known_issues": []
+  }
+]

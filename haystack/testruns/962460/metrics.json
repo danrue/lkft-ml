@@ -1,0 +1,11 @@
+[
+  {
+    "name": "boot/time-juno-r2",
+    "measurement_list": [
+      25.4
+    ],
+    "result": 25.4,
+    "is_outlier": false,
+    "metadata": 26815
+  }
+]

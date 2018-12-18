@@ -1,0 +1,50 @@
+[
+  {
+    "id": 106988575,
+    "name": "install-android-platform-tools-r2600/install-fastboot",
+    "short_name": "install-fastboot",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5969,
+    "metadata": 184082,
+    "known_issues": []
+  },
+  {
+    "id": 106988576,
+    "name": "boot/x15",
+    "short_name": "x15",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 1345,
+    "known_issues": []
+  },
+  {
+    "id": 106988577,
+    "name": "install-android-platform-tools-r2600/install-adb",
+    "short_name": "install-adb",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5969,
+    "metadata": 184083,
+    "known_issues": []
+  },
+  {
+    "id": 106988578,
+    "name": "ltp-filecaps-tests/Filecaps",
+    "short_name": "Filecaps",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 924,
+    "metadata": 15668,
+    "known_issues": []
+  }
+]

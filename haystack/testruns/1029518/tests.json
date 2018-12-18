@@ -1,0 +1,50 @@
+[
+  {
+    "id": 96950831,
+    "name": "ltp-securebits-tests/check_keepcaps01",
+    "short_name": "check_keepcaps01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 954,
+    "metadata": 15820,
+    "known_issues": []
+  },
+  {
+    "id": 96950832,
+    "name": "boot/qemu",
+    "short_name": "qemu",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 79882,
+    "known_issues": []
+  },
+  {
+    "id": 96950833,
+    "name": "ltp-securebits-tests/check_keepcaps02",
+    "short_name": "check_keepcaps02",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 954,
+    "metadata": 15821,
+    "known_issues": []
+  },
+  {
+    "id": 96950834,
+    "name": "ltp-securebits-tests/check_keepcaps03",
+    "short_name": "check_keepcaps03",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 954,
+    "metadata": 15822,
+    "known_issues": []
+  }
+]

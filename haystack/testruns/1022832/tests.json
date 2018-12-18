@@ -1,0 +1,50 @@
+[
+  {
+    "id": 96120547,
+    "name": "ltp-pty-tests/ptem01",
+    "short_name": "ptem01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 15803,
+    "known_issues": []
+  },
+  {
+    "id": 96120548,
+    "name": "ltp-pty-tests/pty01",
+    "short_name": "pty01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 15804,
+    "known_issues": []
+  },
+  {
+    "id": 96120549,
+    "name": "ltp-pty-tests/hangup01",
+    "short_name": "hangup01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 15802,
+    "known_issues": []
+  },
+  {
+    "id": 96120550,
+    "name": "boot/x86",
+    "short_name": "x86",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 1346,
+    "known_issues": []
+  }
+]

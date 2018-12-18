@@ -1,0 +1,86 @@
+[
+  {
+    "id": 103808048,
+    "name": "ltp-pty-tests/pty02",
+    "short_name": "pty02",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 147395,
+    "known_issues": []
+  },
+  {
+    "id": 103808049,
+    "name": "install-android-platform-tools-r2600/install-adb",
+    "short_name": "install-adb",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5969,
+    "metadata": 184083,
+    "known_issues": []
+  },
+  {
+    "id": 103808050,
+    "name": "boot/x15",
+    "short_name": "x15",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 1345,
+    "known_issues": []
+  },
+  {
+    "id": 103808051,
+    "name": "ltp-pty-tests/hangup01",
+    "short_name": "hangup01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 15802,
+    "known_issues": []
+  },
+  {
+    "id": 103808052,
+    "name": "install-android-platform-tools-r2600/install-fastboot",
+    "short_name": "install-fastboot",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5969,
+    "metadata": 184082,
+    "known_issues": []
+  },
+  {
+    "id": 103808053,
+    "name": "ltp-pty-tests/pty01",
+    "short_name": "pty01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 15804,
+    "known_issues": []
+  },
+  {
+    "id": 103808054,
+    "name": "ltp-pty-tests/ptem01",
+    "short_name": "ptem01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 15803,
+    "known_issues": []
+  }
+]

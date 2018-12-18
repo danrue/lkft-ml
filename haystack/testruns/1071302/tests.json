@@ -1,0 +1,14 @@
+[
+  {
+    "id": 102484533,
+    "name": "boot/qemu",
+    "short_name": "qemu",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 79882,
+    "known_issues": []
+  }
+]

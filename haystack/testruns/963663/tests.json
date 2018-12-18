@@ -1,0 +1,26 @@
+[
+  {
+    "id": 89108305,
+    "name": "boot/x86",
+    "short_name": "x86",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 1346,
+    "known_issues": []
+  },
+  {
+    "id": 89108306,
+    "name": "ltp-fcntl-locktests-tests/FCNTL_LOCKTESTS",
+    "short_name": "FCNTL_LOCKTESTS",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 923,
+    "metadata": 15666,
+    "known_issues": []
+  }
+]

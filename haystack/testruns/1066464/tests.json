@@ -1,0 +1,428 @@
+[
+  {
+    "id": 101799387,
+    "name": "kselftest/bpf_test_lru_map",
+    "short_name": "bpf_test_lru_map",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149067,
+    "known_issues": [
+      365
+    ]
+  },
+  {
+    "id": 101799388,
+    "name": "kselftest/bpf_test_dev_cgroup",
+    "short_name": "bpf_test_dev_cgroup",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149064,
+    "known_issues": [
+      362
+    ]
+  },
+  {
+    "id": 101799389,
+    "name": "kselftest/bpf_test_sock",
+    "short_name": "bpf_test_sock",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149054,
+    "known_issues": [
+      392
+    ]
+  },
+  {
+    "id": 101799390,
+    "name": "kselftest/bpf_test_tag",
+    "short_name": "bpf_test_tag",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149065,
+    "known_issues": [
+      364
+    ]
+  },
+  {
+    "id": 101799391,
+    "name": "kselftest/bpf_test_xdp_redirect.sh",
+    "short_name": "bpf_test_xdp_redirect.sh",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 149048,
+    "known_issues": []
+  },
+  {
+    "id": 101799392,
+    "name": "kselftest/bpf_test_libbpf.sh",
+    "short_name": "bpf_test_libbpf.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149176,
+    "known_issues": [
+      380
+    ]
+  },
+  {
+    "id": 101799393,
+    "name": "kselftest/bpf_get_cgroup_id_user",
+    "short_name": "bpf_get_cgroup_id_user",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149029,
+    "known_issues": [
+      212
+    ]
+  },
+  {
+    "id": 101799394,
+    "name": "kselftest/bpf_test_tunnel.sh",
+    "short_name": "bpf_test_tunnel.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 148993,
+    "known_issues": []
+  },
+  {
+    "id": 101799395,
+    "name": "kselftest/bpf_test_lirc_mode2_user",
+    "short_name": "bpf_test_lirc_mode2_user",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149040,
+    "known_issues": [
+      214
+    ]
+  },
+  {
+    "id": 101799396,
+    "name": "boot/juno-r2",
+    "short_name": "juno-r2",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 1343,
+    "known_issues": []
+  },
+  {
+    "id": 101799397,
+    "name": "kselftest/bpf_test_select_reuseport",
+    "short_name": "bpf_test_select_reuseport",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 179209,
+    "known_issues": [
+      218
+    ]
+  },
+  {
+    "id": 101799398,
+    "name": "kselftest/bpf_urandom_read",
+    "short_name": "bpf_urandom_read",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 149013,
+    "known_issues": []
+  },
+  {
+    "id": 101799399,
+    "name": "kselftest/bpf_test_align",
+    "short_name": "bpf_test_align",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 148997,
+    "known_issues": []
+  },
+  {
+    "id": 101799400,
+    "name": "kselftest/bpf_test_maps",
+    "short_name": "bpf_test_maps",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149068,
+    "known_issues": [
+      363
+    ]
+  },
+  {
+    "id": 101799401,
+    "name": "kselftest/bpf_test_cgroup_storage",
+    "short_name": "bpf_test_cgroup_storage",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 169427,
+    "known_issues": [
+      395
+    ]
+  },
+  {
+    "id": 101799402,
+    "name": "kselftest/bpf_test_verifier",
+    "short_name": "bpf_test_verifier",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 149058,
+    "known_issues": []
+  },
+  {
+    "id": 101799403,
+    "name": "kselftest/bpf_test_verifier_log",
+    "short_name": "bpf_test_verifier_log",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 149047,
+    "known_issues": []
+  },
+  {
+    "id": 101799404,
+    "name": "kselftest/bpf_test_btf",
+    "short_name": "bpf_test_btf",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149022,
+    "known_issues": [
+      393
+    ]
+  },
+  {
+    "id": 101799405,
+    "name": "kselftest/bpf_test_socket_cookie",
+    "short_name": "bpf_test_socket_cookie",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 168610,
+    "known_issues": []
+  },
+  {
+    "id": 101799406,
+    "name": "kselftest/android_run.sh",
+    "short_name": "android_run.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149069,
+    "known_issues": [
+      369
+    ]
+  },
+  {
+    "id": 101799407,
+    "name": "kselftest/bpf_test_kmod.sh",
+    "short_name": "bpf_test_kmod.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149169,
+    "known_issues": [
+      358
+    ]
+  },
+  {
+    "id": 101799408,
+    "name": "kselftest/bpf_test_sockmap",
+    "short_name": "bpf_test_sockmap",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149018,
+    "known_issues": [
+      221
+    ]
+  },
+  {
+    "id": 101799409,
+    "name": "kselftest/bpf_test_tcpbpf_user",
+    "short_name": "bpf_test_tcpbpf_user",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149070,
+    "known_issues": [
+      382
+    ]
+  },
+  {
+    "id": 101799410,
+    "name": "kselftest/test_libbpf",
+    "short_name": "test_libbpf",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 147445,
+    "known_issues": []
+  },
+  {
+    "id": 101799411,
+    "name": "kselftest/bpf_test_skb_cgroup_id.sh",
+    "short_name": "bpf_test_skb_cgroup_id.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 179208,
+    "known_issues": [
+      219
+    ]
+  },
+  {
+    "id": 101799412,
+    "name": "kselftest/bpf_test_lwt_seg6local.sh",
+    "short_name": "bpf_test_lwt_seg6local.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 148985,
+    "known_issues": [
+      216
+    ]
+  },
+  {
+    "id": 101799413,
+    "name": "kselftest/bpf_test_progs",
+    "short_name": "bpf_test_progs",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149063,
+    "known_issues": [
+      357
+    ]
+  },
+  {
+    "id": 101799414,
+    "name": "kselftest/bpf_test_xdp_meta.sh",
+    "short_name": "bpf_test_xdp_meta.sh",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 149014,
+    "known_issues": []
+  },
+  {
+    "id": 101799415,
+    "name": "kselftest/bpf_test_lirc_mode2.sh",
+    "short_name": "bpf_test_lirc_mode2.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 776,
+    "metadata": 148989,
+    "known_issues": []
+  },
+  {
+    "id": 101799416,
+    "name": "kselftest/bpf_test_offload.py",
+    "short_name": "bpf_test_offload.py",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149168,
+    "known_issues": [
+      381
+    ]
+  },
+  {
+    "id": 101799417,
+    "name": "kselftest/bpf_test_sock_addr.sh",
+    "short_name": "bpf_test_sock_addr.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149057,
+    "known_issues": [
+      198
+    ]
+  },
+  {
+    "id": 101799418,
+    "name": "kselftest/bpf_test_lpm_map",
+    "short_name": "bpf_test_lpm_map",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 776,
+    "metadata": 149066,
+    "known_issues": [
+      366
+    ]
+  }
+]

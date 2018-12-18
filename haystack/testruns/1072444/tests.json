@@ -1,0 +1,548 @@
+[
+  {
+    "id": 102559601,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_verifier_log",
+    "short_name": "bpf_test_verifier_log",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149297,
+    "known_issues": []
+  },
+  {
+    "id": 102559602,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_lirc_mode2.sh",
+    "short_name": "bpf_test_lirc_mode2.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149205,
+    "known_issues": []
+  },
+  {
+    "id": 102559603,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_align",
+    "short_name": "bpf_test_align",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149242,
+    "known_issues": []
+  },
+  {
+    "id": 102559604,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_progs",
+    "short_name": "bpf_test_progs",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149211,
+    "known_issues": [
+      398
+    ]
+  },
+  {
+    "id": 102559605,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_sockmap",
+    "short_name": "bpf_test_sockmap",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149477,
+    "known_issues": [
+      428
+    ]
+  },
+  {
+    "id": 102559606,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_sock_addr.sh",
+    "short_name": "bpf_test_sock_addr.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149307,
+    "known_issues": [
+      416
+    ]
+  },
+  {
+    "id": 102559607,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_tcpbpf_user",
+    "short_name": "bpf_test_tcpbpf_user",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149244,
+    "known_issues": [
+      414
+    ]
+  },
+  {
+    "id": 102559608,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_skb_cgroup_id.sh",
+    "short_name": "bpf_test_skb_cgroup_id.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 179298,
+    "known_issues": [
+      424
+    ]
+  },
+  {
+    "id": 102559609,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_btf",
+    "short_name": "bpf_test_btf",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149478,
+    "known_issues": [
+      481
+    ]
+  },
+  {
+    "id": 102559610,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_lru_map",
+    "short_name": "bpf_test_lru_map",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149266,
+    "known_issues": [
+      440
+    ]
+  },
+  {
+    "id": 102559611,
+    "name": "kselftest-vsyscall-mode-native/exec_execveat",
+    "short_name": "exec_execveat",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149306,
+    "known_issues": []
+  },
+  {
+    "id": 102559612,
+    "name": "kselftest-vsyscall-mode-native/breakpoints_step_after_suspend_test",
+    "short_name": "breakpoints_step_after_suspend_test",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149247,
+    "known_issues": [
+      491
+    ]
+  },
+  {
+    "id": 102559613,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_sock",
+    "short_name": "bpf_test_sock",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149319,
+    "known_issues": [
+      462
+    ]
+  },
+  {
+    "id": 102559614,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_dev_cgroup",
+    "short_name": "bpf_test_dev_cgroup",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149229,
+    "known_issues": []
+  },
+  {
+    "id": 102559615,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_lwt_seg6local.sh",
+    "short_name": "bpf_test_lwt_seg6local.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149209,
+    "known_issues": [
+      422
+    ]
+  },
+  {
+    "id": 102559616,
+    "name": "kselftest-vsyscall-mode-native/firmware_fw_run_tests.sh",
+    "short_name": "firmware_fw_run_tests.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149267,
+    "known_issues": [
+      408
+    ]
+  },
+  {
+    "id": 102559617,
+    "name": "kselftest-vsyscall-mode-native/bpf_get_cgroup_id_user",
+    "short_name": "bpf_get_cgroup_id_user",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149318,
+    "known_issues": [
+      418
+    ]
+  },
+  {
+    "id": 102559618,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_socket_cookie",
+    "short_name": "bpf_test_socket_cookie",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 168652,
+    "known_issues": [
+      426
+    ]
+  },
+  {
+    "id": 102559619,
+    "name": "kselftest-vsyscall-mode-native/efivarfs_efivarfs.sh",
+    "short_name": "efivarfs_efivarfs.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149253,
+    "known_issues": []
+  },
+  {
+    "id": 102559620,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_cgroup_storage",
+    "short_name": "bpf_test_cgroup_storage",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 169425,
+    "known_issues": [
+      486
+    ]
+  },
+  {
+    "id": 102559621,
+    "name": "kselftest-vsyscall-mode-native/bpf_urandom_read",
+    "short_name": "bpf_urandom_read",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149237,
+    "known_issues": []
+  },
+  {
+    "id": 102559622,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_tunnel.sh",
+    "short_name": "bpf_test_tunnel.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149287,
+    "known_issues": []
+  },
+  {
+    "id": 102559623,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_xdp_meta.sh",
+    "short_name": "bpf_test_xdp_meta.sh",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149315,
+    "known_issues": []
+  },
+  {
+    "id": 102559624,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_select_reuseport",
+    "short_name": "bpf_test_select_reuseport",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 179242,
+    "known_issues": [
+      410
+    ]
+  },
+  {
+    "id": 102559625,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_offload.py",
+    "short_name": "bpf_test_offload.py",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149216,
+    "known_issues": []
+  },
+  {
+    "id": 102559626,
+    "name": "kselftest-vsyscall-mode-native/cgroup_test_core",
+    "short_name": "cgroup_test_core",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 179555,
+    "known_issues": [
+      430
+    ]
+  },
+  {
+    "id": 102559627,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_libbpf.sh",
+    "short_name": "bpf_test_libbpf.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149228,
+    "known_issues": [
+      412
+    ]
+  },
+  {
+    "id": 102559628,
+    "name": "kselftest-vsyscall-mode-native/cgroup_test_memcontrol",
+    "short_name": "cgroup_test_memcontrol",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149298,
+    "known_issues": []
+  },
+  {
+    "id": 102559629,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_verifier",
+    "short_name": "bpf_test_verifier",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149283,
+    "known_issues": []
+  },
+  {
+    "id": 102559630,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_kmod.sh",
+    "short_name": "bpf_test_kmod.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149261,
+    "known_issues": []
+  },
+  {
+    "id": 102559631,
+    "name": "kselftest-vsyscall-mode-native/cpu-hotplug_cpu-on-off-test.sh",
+    "short_name": "cpu-hotplug_cpu-on-off-test.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149260,
+    "known_issues": []
+  },
+  {
+    "id": 102559632,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_tag",
+    "short_name": "bpf_test_tag",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149265,
+    "known_issues": [
+      438
+    ]
+  },
+  {
+    "id": 102559633,
+    "name": "kselftest-vsyscall-mode-native/capabilities_test_execve",
+    "short_name": "capabilities_test_execve",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149249,
+    "known_issues": []
+  },
+  {
+    "id": 102559634,
+    "name": "kselftest-vsyscall-mode-native/filesystems_devpts_pts",
+    "short_name": "filesystems_devpts_pts",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149296,
+    "known_issues": []
+  },
+  {
+    "id": 102559635,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_lirc_mode2_user",
+    "short_name": "bpf_test_lirc_mode2_user",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149476,
+    "known_issues": [
+      420
+    ]
+  },
+  {
+    "id": 102559636,
+    "name": "kselftest-vsyscall-mode-native/breakpoints_breakpoint_test",
+    "short_name": "breakpoints_breakpoint_test",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149212,
+    "known_issues": []
+  },
+  {
+    "id": 102559637,
+    "name": "kselftest-vsyscall-mode-native/cpufreq_main.sh",
+    "short_name": "cpufreq_main.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149255,
+    "known_issues": []
+  },
+  {
+    "id": 102559638,
+    "name": "kselftest-vsyscall-mode-native/android_run.sh",
+    "short_name": "android_run.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149256,
+    "known_issues": []
+  },
+  {
+    "id": 102559639,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_maps",
+    "short_name": "bpf_test_maps",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149258,
+    "known_issues": [
+      402
+    ]
+  },
+  {
+    "id": 102559640,
+    "name": "boot/x86",
+    "short_name": "x86",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 1346,
+    "known_issues": []
+  },
+  {
+    "id": 102559641,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_lpm_map",
+    "short_name": "bpf_test_lpm_map",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 3279,
+    "metadata": 149302,
+    "known_issues": [
+      442
+    ]
+  },
+  {
+    "id": 102559642,
+    "name": "kselftest-vsyscall-mode-native/bpf_test_xdp_redirect.sh",
+    "short_name": "bpf_test_xdp_redirect.sh",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 3279,
+    "metadata": 149311,
+    "known_issues": []
+  }
+]

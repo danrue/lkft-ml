@@ -1,0 +1,11 @@
+[
+  {
+    "name": "boot/time-x15",
+    "measurement_list": [
+      10.0
+    ],
+    "result": 10.0,
+    "is_outlier": false,
+    "metadata": 26817
+  }
+]

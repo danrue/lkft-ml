@@ -1,0 +1,50 @@
+[
+  {
+    "id": 98718865,
+    "name": "boot/qemu",
+    "short_name": "qemu",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 79882,
+    "known_issues": []
+  },
+  {
+    "id": 98718866,
+    "name": "ltp-pty-tests/pty01",
+    "short_name": "pty01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 15804,
+    "known_issues": []
+  },
+  {
+    "id": 98718867,
+    "name": "ltp-pty-tests/hangup01",
+    "short_name": "hangup01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 15802,
+    "known_issues": []
+  },
+  {
+    "id": 98718868,
+    "name": "ltp-pty-tests/ptem01",
+    "short_name": "ptem01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 952,
+    "metadata": 15803,
+    "known_issues": []
+  }
+]

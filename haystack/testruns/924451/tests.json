@@ -1,0 +1,38 @@
+[
+  {
+    "id": 80897287,
+    "name": "ltp-filecaps-tests/runltp_filecaps",
+    "short_name": "runltp_filecaps",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 924,
+    "metadata": 15669,
+    "known_issues": []
+  },
+  {
+    "id": 80897288,
+    "name": "boot/x86",
+    "short_name": "x86",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 800,
+    "metadata": 1346,
+    "known_issues": []
+  },
+  {
+    "id": 80897289,
+    "name": "ltp-filecaps-tests/Filecaps",
+    "short_name": "Filecaps",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 924,
+    "metadata": 15668,
+    "known_issues": []
+  }
+]

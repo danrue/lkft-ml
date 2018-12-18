@@ -1,0 +1,21 @@
+{
+  "url": "https://qa-reports.linaro.org/api/projects/40/",
+  "builds": "https://qa-reports.linaro.org/api/projects/40/builds/",
+  "id": 40,
+  "full_name": "lkft/linux-stable-rc-4.4-oe",
+  "slug": "linux-stable-rc-4.4-oe",
+  "name": "stable v4.4.y on OE",
+  "is_public": true,
+  "html_mail": false,
+  "moderate_notifications": false,
+  "description": "Linux 4.4 LTS kernel using OpenEmbedded",
+  "important_metadata_keys": "build-url\r\ngit branch\r\ngit describe\r\ngit repo\r\nkernel-config\r\nmake_kernelversion\r\nkselftest__version\r\nlibhugetlbfs__version\r\nltp__version",
+  "enabled_plugins_list": "['ltp']",
+  "wait_before_notification": 600,
+  "notification_timeout": 28800,
+  "notification_strategy": "all",
+  "data_retention_days": 0,
+  "project_settings": null,
+  "group": "https://qa-reports.linaro.org/api/groups/3/",
+  "custom_email_template": "https://qa-reports.linaro.org/api/emailtemplates/6/"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 96952719,
+    "name": "ltp-nptl-tests/nptl01",
+    "short_name": "nptl01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 951,
+    "metadata": 15800,
+    "known_issues": []
+  },
+  {
+    "id": 96952720,
+    "name": "boot/qemu",
+    "short_name": "qemu",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 800,
+    "metadata": 79882,
+    "known_issues": []
+  }
+]
