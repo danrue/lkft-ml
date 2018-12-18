@@ -17,6 +17,8 @@ The other supporting scripts:
 - find_intermittent_issues.py: Example naive approach to finding inconsistently
   failing tests (i.e. flaky tests).
 - parse_known_issues.py: Used to populate needle_intermittent_issues.json
+- update.sh: Generates needle_intermittent_issues.json, using
+  parse_known_issues.py.
 
 ## Design
 
