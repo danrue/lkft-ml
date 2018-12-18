@@ -73,7 +73,8 @@ quite noisy before a human bothers to add it as a known intermittent issue.
 This needle file is generated using parse_known_issues.py, which retrieves the
 lists of known intermittent issues from
 [qa-reports-known-issues](https://github.com/Linaro/qa-reports-known-issues).
-It could also retrieve them from the qa-reports API, but this author did not
+It could also retrieve them from the [qa-reports
+API](https://qa-reports.linaro.org/api/knownissues/), but this author did not
 think of that at the time.
 
 Finally, find_intermittent_issues.py is a very naive example of traversing
