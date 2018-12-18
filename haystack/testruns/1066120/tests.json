@@ -1,0 +1,872 @@
+[
+  {
+    "id": 101774731,
+    "name": "kselftest/bpf_test_lru_map",
+    "short_name": "bpf_test_lru_map",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149067,
+    "known_issues": [
+      365
+    ]
+  },
+  {
+    "id": 101774732,
+    "name": "kselftest/bpf_test_sock",
+    "short_name": "bpf_test_sock",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149054,
+    "known_issues": [
+      392
+    ]
+  },
+  {
+    "id": 101774733,
+    "name": "kselftest/memfd_run_fuse_test.sh",
+    "short_name": "memfd_run_fuse_test.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149180,
+    "known_issues": [
+      370
+    ]
+  },
+  {
+    "id": 101774734,
+    "name": "kselftest/bpf_test_kmod.sh",
+    "short_name": "bpf_test_kmod.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149169,
+    "known_issues": [
+      358
+    ]
+  },
+  {
+    "id": 101774735,
+    "name": "kselftest/test_libbpf",
+    "short_name": "test_libbpf",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 147445,
+    "known_issues": []
+  },
+  {
+    "id": 101774736,
+    "name": "kselftest/efivarfs_efivarfs.sh",
+    "short_name": "efivarfs_efivarfs.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149000,
+    "known_issues": [
+      374
+    ]
+  },
+  {
+    "id": 101774737,
+    "name": "kselftest/bpf_test_libbpf.sh",
+    "short_name": "bpf_test_libbpf.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149176,
+    "known_issues": [
+      380
+    ]
+  },
+  {
+    "id": 101774738,
+    "name": "kselftest/bpf_test_lirc_mode2.sh",
+    "short_name": "bpf_test_lirc_mode2.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 148989,
+    "known_issues": []
+  },
+  {
+    "id": 101774739,
+    "name": "kselftest/bpf_test_lirc_mode2_user",
+    "short_name": "bpf_test_lirc_mode2_user",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149040,
+    "known_issues": [
+      214
+    ]
+  },
+  {
+    "id": 101774740,
+    "name": "kselftest/cgroup_test_memcontrol",
+    "short_name": "cgroup_test_memcontrol",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149026,
+    "known_issues": []
+  },
+  {
+    "id": 101774741,
+    "name": "kselftest/bpf_urandom_read",
+    "short_name": "bpf_urandom_read",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149013,
+    "known_issues": []
+  },
+  {
+    "id": 101774742,
+    "name": "kselftest/filesystems_devpts_pts",
+    "short_name": "filesystems_devpts_pts",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149174,
+    "known_issues": [
+      388
+    ]
+  },
+  {
+    "id": 101774743,
+    "name": "kselftest/bpf_test_align",
+    "short_name": "bpf_test_align",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 148997,
+    "known_issues": []
+  },
+  {
+    "id": 101774744,
+    "name": "kselftest/mount_run_tests.sh",
+    "short_name": "mount_run_tests.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149045,
+    "known_issues": []
+  },
+  {
+    "id": 101774745,
+    "name": "kselftest/bpf_test_verifier_log",
+    "short_name": "bpf_test_verifier_log",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149047,
+    "known_issues": []
+  },
+  {
+    "id": 101774746,
+    "name": "kselftest/cgroup_test_core",
+    "short_name": "cgroup_test_core",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 179526,
+    "known_issues": [
+      222
+    ]
+  },
+  {
+    "id": 101774747,
+    "name": "kselftest/breakpoints_step_after_suspend_test",
+    "short_name": "breakpoints_step_after_suspend_test",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149194,
+    "known_issues": []
+  },
+  {
+    "id": 101774748,
+    "name": "kselftest/bpf_test_dev_cgroup",
+    "short_name": "bpf_test_dev_cgroup",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149064,
+    "known_issues": [
+      362
+    ]
+  },
+  {
+    "id": 101774749,
+    "name": "kselftest/bpf_test_verifier",
+    "short_name": "bpf_test_verifier",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149058,
+    "known_issues": []
+  },
+  {
+    "id": 101774750,
+    "name": "kselftest/bpf_test_tag",
+    "short_name": "bpf_test_tag",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149065,
+    "known_issues": [
+      364
+    ]
+  },
+  {
+    "id": 101774751,
+    "name": "kselftest/kvm_state_test",
+    "short_name": "kvm_state_test",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 170281,
+    "known_issues": [
+      208
+    ]
+  },
+  {
+    "id": 101774752,
+    "name": "boot/qemu",
+    "short_name": "qemu",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 796,
+    "metadata": 79882,
+    "known_issues": []
+  },
+  {
+    "id": 101774753,
+    "name": "kselftest/ftrace_ftracetest",
+    "short_name": "ftrace_ftracetest",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149782,
+    "known_issues": []
+  },
+  {
+    "id": 101774754,
+    "name": "kselftest/bpf_test_lpm_map",
+    "short_name": "bpf_test_lpm_map",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149066,
+    "known_issues": [
+      366
+    ]
+  },
+  {
+    "id": 101774755,
+    "name": "kselftest/bpf_test_lwt_seg6local.sh",
+    "short_name": "bpf_test_lwt_seg6local.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 148985,
+    "known_issues": [
+      216
+    ]
+  },
+  {
+    "id": 101774756,
+    "name": "kselftest/firmware_fw_run_tests.sh",
+    "short_name": "firmware_fw_run_tests.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149167,
+    "known_issues": [
+      142
+    ]
+  },
+  {
+    "id": 101774757,
+    "name": "kselftest/ipc_msgque",
+    "short_name": "ipc_msgque",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149015,
+    "known_issues": []
+  },
+  {
+    "id": 101774758,
+    "name": "kselftest/cpufreq_main.sh",
+    "short_name": "cpufreq_main.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149170,
+    "known_issues": [
+      159
+    ]
+  },
+  {
+    "id": 101774759,
+    "name": "kselftest/lib_bitmap.sh",
+    "short_name": "lib_bitmap.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149046,
+    "known_issues": []
+  },
+  {
+    "id": 101774760,
+    "name": "kselftest/memfd_run_hugetlbfs_test.sh",
+    "short_name": "memfd_run_hugetlbfs_test.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149173,
+    "known_issues": []
+  },
+  {
+    "id": 101774761,
+    "name": "kselftest/bpf_test_xdp_meta.sh",
+    "short_name": "bpf_test_xdp_meta.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149014,
+    "known_issues": []
+  },
+  {
+    "id": 101774762,
+    "name": "kselftest/bpf_test_tunnel.sh",
+    "short_name": "bpf_test_tunnel.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 148993,
+    "known_issues": []
+  },
+  {
+    "id": 101774763,
+    "name": "kselftest/exec_execveat",
+    "short_name": "exec_execveat",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149053,
+    "known_issues": []
+  },
+  {
+    "id": 101774764,
+    "name": "kselftest/capabilities_test_execve",
+    "short_name": "capabilities_test_execve",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149025,
+    "known_issues": []
+  },
+  {
+    "id": 101774765,
+    "name": "kselftest/futex_run.sh",
+    "short_name": "futex_run.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149175,
+    "known_issues": [
+      367
+    ]
+  },
+  {
+    "id": 101774766,
+    "name": "kselftest/kvm_set_sregs_test",
+    "short_name": "kvm_set_sregs_test",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 148982,
+    "known_issues": [
+      195
+    ]
+  },
+  {
+    "id": 101774767,
+    "name": "kselftest/bpf_test_btf",
+    "short_name": "bpf_test_btf",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149022,
+    "known_issues": [
+      393
+    ]
+  },
+  {
+    "id": 101774768,
+    "name": "kselftest/memory-hotplug_mem-on-off-test.sh",
+    "short_name": "memory-hotplug_mem-on-off-test.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149011,
+    "known_issues": [
+      152
+    ]
+  },
+  {
+    "id": 101774769,
+    "name": "kselftest/bpf_test_select_reuseport",
+    "short_name": "bpf_test_select_reuseport",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 179209,
+    "known_issues": [
+      218
+    ]
+  },
+  {
+    "id": 101774770,
+    "name": "kselftest/kcmp_kcmp_test",
+    "short_name": "kcmp_kcmp_test",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149038,
+    "known_issues": []
+  },
+  {
+    "id": 101774771,
+    "name": "kselftest/bpf_get_cgroup_id_user",
+    "short_name": "bpf_get_cgroup_id_user",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149029,
+    "known_issues": [
+      212
+    ]
+  },
+  {
+    "id": 101774772,
+    "name": "kselftest/kvm_dirty_log_test",
+    "short_name": "kvm_dirty_log_test",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 179924,
+    "known_issues": [
+      209
+    ]
+  },
+  {
+    "id": 101774773,
+    "name": "kselftest/bpf_test_sockmap",
+    "short_name": "bpf_test_sockmap",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149018,
+    "known_issues": [
+      221
+    ]
+  },
+  {
+    "id": 101774774,
+    "name": "kselftest/android_run.sh",
+    "short_name": "android_run.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149069,
+    "known_issues": [
+      369
+    ]
+  },
+  {
+    "id": 101774775,
+    "name": "kselftest/bpf_test_tcpbpf_user",
+    "short_name": "bpf_test_tcpbpf_user",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149070,
+    "known_issues": [
+      382
+    ]
+  },
+  {
+    "id": 101774776,
+    "name": "kselftest/lib_printf.sh",
+    "short_name": "lib_printf.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149060,
+    "known_issues": []
+  },
+  {
+    "id": 101774777,
+    "name": "kselftest/kvm_platform_info_test",
+    "short_name": "kvm_platform_info_test",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 182207,
+    "known_issues": [
+      210
+    ]
+  },
+  {
+    "id": 101774778,
+    "name": "kselftest/memfd_memfd_test",
+    "short_name": "memfd_memfd_test",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149052,
+    "known_issues": []
+  },
+  {
+    "id": 101774779,
+    "name": "kselftest/cpu-hotplug_cpu-on-off-test.sh",
+    "short_name": "cpu-hotplug_cpu-on-off-test.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149032,
+    "known_issues": []
+  },
+  {
+    "id": 101774780,
+    "name": "kselftest/bpf_test_maps",
+    "short_name": "bpf_test_maps",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149068,
+    "known_issues": [
+      363
+    ]
+  },
+  {
+    "id": 101774781,
+    "name": "kselftest/membarrier_membarrier_test",
+    "short_name": "membarrier_membarrier_test",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149010,
+    "known_issues": [
+      185
+    ]
+  },
+  {
+    "id": 101774782,
+    "name": "kselftest/kvm_vmx_tsc_adjust_test",
+    "short_name": "kvm_vmx_tsc_adjust_test",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149020,
+    "known_issues": [
+      206
+    ]
+  },
+  {
+    "id": 101774783,
+    "name": "kselftest/bpf_test_socket_cookie",
+    "short_name": "bpf_test_socket_cookie",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 168610,
+    "known_issues": []
+  },
+  {
+    "id": 101774784,
+    "name": "kselftest/lib_prime_numbers.sh",
+    "short_name": "lib_prime_numbers.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 148981,
+    "known_issues": []
+  },
+  {
+    "id": 101774785,
+    "name": "kselftest/mqueue_mq_open_tests",
+    "short_name": "mqueue_mq_open_tests",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149034,
+    "known_issues": []
+  },
+  {
+    "id": 101774786,
+    "name": "kselftest/kvm_cr4_cpuid_sync_test",
+    "short_name": "kvm_cr4_cpuid_sync_test",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 170280,
+    "known_issues": [
+      207
+    ]
+  },
+  {
+    "id": 101774787,
+    "name": "kselftest/kvm_sync_regs_test",
+    "short_name": "kvm_sync_regs_test",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149007,
+    "known_issues": [
+      196
+    ]
+  },
+  {
+    "id": 101774788,
+    "name": "kselftest/intel_pstate_run.sh",
+    "short_name": "intel_pstate_run.sh",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149178,
+    "known_issues": [
+      368
+    ]
+  },
+  {
+    "id": 101774789,
+    "name": "kselftest/bpf_test_cgroup_storage",
+    "short_name": "bpf_test_cgroup_storage",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 169427,
+    "known_issues": [
+      395
+    ]
+  },
+  {
+    "id": 101774790,
+    "name": "kselftest/bpf_test_skb_cgroup_id.sh",
+    "short_name": "bpf_test_skb_cgroup_id.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 179208,
+    "known_issues": [
+      219
+    ]
+  },
+  {
+    "id": 101774791,
+    "name": "kselftest/breakpoints_breakpoint_test_arm64",
+    "short_name": "breakpoints_breakpoint_test_arm64",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 148987,
+    "known_issues": []
+  },
+  {
+    "id": 101774792,
+    "name": "kselftest/bpf_test_progs",
+    "short_name": "bpf_test_progs",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149063,
+    "known_issues": [
+      357
+    ]
+  },
+  {
+    "id": 101774793,
+    "name": "kselftest/gpio_gpio-mockup.sh",
+    "short_name": "gpio_gpio-mockup.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149004,
+    "known_issues": [
+      183
+    ]
+  },
+  {
+    "id": 101774794,
+    "name": "kselftest/bpf_test_offload.py",
+    "short_name": "bpf_test_offload.py",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149168,
+    "known_issues": [
+      381
+    ]
+  },
+  {
+    "id": 101774795,
+    "name": "kselftest/bpf_test_sock_addr.sh",
+    "short_name": "bpf_test_sock_addr.sh",
+    "status": "xfail",
+    "result": false,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 139,
+    "metadata": 149057,
+    "known_issues": [
+      198
+    ]
+  },
+  {
+    "id": 101774796,
+    "name": "kselftest/bpf_test_xdp_redirect.sh",
+    "short_name": "bpf_test_xdp_redirect.sh",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 139,
+    "metadata": 149048,
+    "known_issues": []
+  }
+]

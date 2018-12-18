@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/3875/",
+  "id": 3875,
+  "testruns": "https://qa-reports.linaro.org/api/builds/3875/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/3875/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/3875/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/3875/metadata/",
+  "finished": true,
+  "version": "v4.4.112-21-g451860514426",
+  "created_at": "2018-01-17T14:45:10.572481Z",
+  "datetime": "2018-01-17T14:45:10.572316Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/40/",
+  "patch_source": null,
+  "patch_baseline": null
+}

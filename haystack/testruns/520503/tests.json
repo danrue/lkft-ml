@@ -1,0 +1,38 @@
+[
+  {
+    "id": 33468298,
+    "name": "ltp-filecaps-tests/Filecaps",
+    "short_name": "Filecaps",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 924,
+    "metadata": 15668,
+    "known_issues": []
+  },
+  {
+    "id": 33468299,
+    "name": "ltp-filecaps-tests/runltp_filecaps",
+    "short_name": "runltp_filecaps",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 924,
+    "metadata": 15669,
+    "known_issues": []
+  },
+  {
+    "id": 33468300,
+    "name": "boot/qemu",
+    "short_name": "qemu",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 800,
+    "metadata": 79882,
+    "known_issues": []
+  }
+]

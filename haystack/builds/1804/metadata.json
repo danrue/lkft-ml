@@ -1,0 +1,21 @@
+{
+  "kernel-commit": "cd99a4f3f43ba1b88ff0ef01a9d5564fdf824c38",
+  "kernel-repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "build-location": "https://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/9",
+  "build-url": "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/9/",
+  "job_id": [
+    "22249",
+    "22250",
+    "22251"
+  ],
+  "job_status": "Complete",
+  "series": "lkft",
+  "kernel-describe": "v4.4.85-16-gcd99a4f3f43b",
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/22249",
+    "https://lkft.validation.linaro.org/scheduler/job/22250",
+    "https://lkft.validation.linaro.org/scheduler/job/22251"
+  ],
+  "kernel-branch": "linux-4.4.y",
+  "kernel-config": "https://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/9/defconfig"
+}

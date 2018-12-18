@@ -1,0 +1,48 @@
+{
+  "build-location": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/19",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/juno/rpb/linux-stable-rc-4.4/19"
+  ],
+  "libhugetlbfs__version": "2.20",
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/42603",
+    "https://lkft.validation.linaro.org/scheduler/job/42604",
+    "https://lkft.validation.linaro.org/scheduler/job/42605",
+    "https://lkft.validation.linaro.org/scheduler/job/42609",
+    "https://lkft.validation.linaro.org/scheduler/job/42610",
+    "https://lkft.validation.linaro.org/scheduler/job/42611"
+  ],
+  "build-url": [
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/19/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=juno,label=docker-jessie-amd64/19/"
+  ],
+  "git commit": "255b4a073a820d2f46a1ce1740f1a9be3de9661a",
+  "kselftest__url": "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.xz",
+  "libhugetlbfs__revision": "e44180072b796c0e28e53c4d01ef6279caaa2a99",
+  "git describe": "v4.4.89-42-g255b4a073a82",
+  "ltp-syscalls-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-syscalls-tests__version": "20170516",
+  "job_status": [
+    "Complete",
+    "Incomplete"
+  ],
+  "job_id": [
+    "42603",
+    "42604",
+    "42605",
+    "42609",
+    "42610",
+    "42611"
+  ],
+  "kernel-config": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/19/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/juno/rpb/linux-stable-rc-4.4/19/defconfig"
+  ],
+  "git repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "kselftest__version": "4.13",
+  "libhugetlbfs__url": "git://github.com/libhugetlbfs/libhugetlbfs.git",
+  "ltp-syscalls-tests__revision": "6c6c6ca40afb3611e52486f670085762ff451e91",
+  "make_kernelversion": "4.4.90-rc1",
+  "git branch": "linux-4.4.y",
+  "series": "lkft"
+}

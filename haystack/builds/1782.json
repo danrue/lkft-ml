@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/1782/",
+  "id": 1782,
+  "testruns": "https://qa-reports.linaro.org/api/builds/1782/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/1782/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/1782/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/1782/metadata/",
+  "finished": false,
+  "version": "v4.4.85-16-ga0e79fa54913",
+  "created_at": "2017-08-31T21:27:54.659238Z",
+  "datetime": "2017-08-31T21:27:54.659077Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/40/",
+  "patch_source": null,
+  "patch_baseline": null
+}

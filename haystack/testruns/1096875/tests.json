@@ -1,0 +1,38 @@
+[
+  {
+    "id": 105279709,
+    "name": "install-android-platform-tools-r2600/install-adb",
+    "short_name": "install-adb",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184083,
+    "known_issues": []
+  },
+  {
+    "id": 105279710,
+    "name": "install-android-platform-tools-r2600/install-fastboot",
+    "short_name": "install-fastboot",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184082,
+    "known_issues": []
+  },
+  {
+    "id": 105279711,
+    "name": "boot/dragonboard-410c",
+    "short_name": "dragonboard-410c",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 796,
+    "metadata": 1340,
+    "known_issues": []
+  }
+]

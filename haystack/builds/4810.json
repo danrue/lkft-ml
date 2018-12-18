@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/4810/",
+  "id": 4810,
+  "testruns": "https://qa-reports.linaro.org/api/builds/4810/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/4810/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/4810/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/4810/metadata/",
+  "finished": true,
+  "version": "v4.4.119-35-g2fd16f09a713",
+  "created_at": "2018-03-02T13:14:58.307300Z",
+  "datetime": "2018-03-02T13:14:58.307149Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/40/",
+  "patch_source": null,
+  "patch_baseline": null
+}

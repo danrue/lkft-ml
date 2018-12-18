@@ -1,0 +1,50 @@
+[
+  {
+    "id": 108134232,
+    "name": "ltp-fs_bind-tests/BindMounts",
+    "short_name": "BindMounts",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 890,
+    "metadata": 15670,
+    "known_issues": []
+  },
+  {
+    "id": 108134233,
+    "name": "install-android-platform-tools-r2600/install-fastboot",
+    "short_name": "install-fastboot",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184082,
+    "known_issues": []
+  },
+  {
+    "id": 108134234,
+    "name": "install-android-platform-tools-r2600/install-adb",
+    "short_name": "install-adb",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184083,
+    "known_issues": []
+  },
+  {
+    "id": 108134235,
+    "name": "boot/hi6220-hikey-r2",
+    "short_name": "hi6220-hikey-r2",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 796,
+    "metadata": 135598,
+    "known_issues": []
+  }
+]

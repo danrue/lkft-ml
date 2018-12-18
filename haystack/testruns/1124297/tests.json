@@ -1,0 +1,50 @@
+[
+  {
+    "id": 108862411,
+    "name": "ltp-cap_bounds-tests/Cap_bounds",
+    "short_name": "Cap_bounds",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 884,
+    "metadata": 15538,
+    "known_issues": []
+  },
+  {
+    "id": 108862412,
+    "name": "install-android-platform-tools-r2600/install-fastboot",
+    "short_name": "install-fastboot",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184082,
+    "known_issues": []
+  },
+  {
+    "id": 108862413,
+    "name": "install-android-platform-tools-r2600/install-adb",
+    "short_name": "install-adb",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184083,
+    "known_issues": []
+  },
+  {
+    "id": 108862414,
+    "name": "boot/hi6220-hikey-r2",
+    "short_name": "hi6220-hikey-r2",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 796,
+    "metadata": 135598,
+    "known_issues": []
+  }
+]

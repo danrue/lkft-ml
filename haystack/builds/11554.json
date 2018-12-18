@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/11554/",
+  "id": 11554,
+  "testruns": "https://qa-reports.linaro.org/api/builds/11554/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/11554/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/11554/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/11554/metadata/",
+  "finished": true,
+  "version": "v4.9.141-91-gdc9fc9db643c",
+  "created_at": "2018-11-30T16:03:09.957299Z",
+  "datetime": "2018-11-30T16:03:09.957136Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/23/",
+  "patch_source": null,
+  "patch_baseline": null
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 41621153,
+    "name": "ltp-nptl-tests/nptl01",
+    "short_name": "nptl01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 951,
+    "metadata": 15800,
+    "known_issues": []
+  },
+  {
+    "id": 41621154,
+    "name": "ltp-nptl-tests/runltp_nptl",
+    "short_name": "runltp_nptl",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 951,
+    "metadata": 15801,
+    "known_issues": []
+  },
+  {
+    "id": 41621155,
+    "name": "boot/x15",
+    "short_name": "x15",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 800,
+    "metadata": 1345,
+    "known_issues": []
+  }
+]

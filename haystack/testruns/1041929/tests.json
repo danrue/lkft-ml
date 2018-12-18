@@ -1,0 +1,14 @@
+[
+  {
+    "id": 99044542,
+    "name": "boot/dragonboard-410c",
+    "short_name": "dragonboard-410c",
+    "status": "fail",
+    "result": false,
+    "log": "dragonboard-410c login: linaro",
+    "has_known_issues": false,
+    "suite": 796,
+    "metadata": 1340,
+    "known_issues": []
+  }
+]

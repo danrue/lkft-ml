@@ -1,0 +1,48 @@
+{
+  "ltp-syscalls-tests__version": "20170516",
+  "ltp-syscalls-tests__revision": "6c6c6ca40afb3611e52486f670085762ff451e91",
+  "ltp-syscalls-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "git branch": "linux-4.4.y",
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/42083",
+    "https://lkft.validation.linaro.org/scheduler/job/42084",
+    "https://lkft.validation.linaro.org/scheduler/job/42085",
+    "https://lkft.validation.linaro.org/scheduler/job/42095",
+    "https://lkft.validation.linaro.org/scheduler/job/42096",
+    "https://lkft.validation.linaro.org/scheduler/job/42097"
+  ],
+  "libhugetlbfs__version": "2.20",
+  "build-location": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/18",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/juno/rpb/linux-stable-rc-4.4/18"
+  ],
+  "kernel-config": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/18/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/juno/rpb/linux-stable-rc-4.4/18/defconfig"
+  ],
+  "libhugetlbfs__revision": "e44180072b796c0e28e53c4d01ef6279caaa2a99",
+  "make_kernelversion": "4.4.90-rc1",
+  "git commit": "b547584d016ba041707feb16169a814bc9c1cd79",
+  "build-url": [
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/18/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=juno,label=docker-jessie-amd64/18/"
+  ],
+  "git repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "job_status": [
+    "Complete",
+    "Incomplete"
+  ],
+  "series": "lkft",
+  "git describe": "v4.4.89-30-gb547584d016b",
+  "kselftest__version": "4.13",
+  "kselftest__url": "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.xz",
+  "libhugetlbfs__url": "git://github.com/libhugetlbfs/libhugetlbfs.git",
+  "job_id": [
+    "42083",
+    "42084",
+    "42085",
+    "42095",
+    "42096",
+    "42097"
+  ]
+}

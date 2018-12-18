@@ -1,0 +1,16 @@
+{
+  "last_updated": "2018-01-31T17:20:28.687850Z",
+  "finished": true,
+  "notified": true,
+  "notified_on_timeout": false,
+  "approved": false,
+  "tests_pass": 4074,
+  "tests_fail": 0,
+  "tests_skip": 439,
+  "has_metrics": true,
+  "metrics_summary": 25.8956251617861,
+  "build": "https://qa-reports.linaro.org/api/builds/4164/",
+  "created_at": "2018-01-31T15:18:06.421831Z",
+  "regressions": null,
+  "fixes": null
+}

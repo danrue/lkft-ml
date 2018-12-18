@@ -1,0 +1,62 @@
+[
+  {
+    "id": 106025637,
+    "name": "install-android-platform-tools-r2600/install-fastboot",
+    "short_name": "install-fastboot",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184082,
+    "known_issues": []
+  },
+  {
+    "id": 106025638,
+    "name": "ltp-io-tests/aio01",
+    "short_name": "aio01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 894,
+    "metadata": 15777,
+    "known_issues": []
+  },
+  {
+    "id": 106025639,
+    "name": "install-android-platform-tools-r2600/install-adb",
+    "short_name": "install-adb",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184083,
+    "known_issues": []
+  },
+  {
+    "id": 106025640,
+    "name": "ltp-io-tests/aio02",
+    "short_name": "aio02",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 894,
+    "metadata": 15778,
+    "known_issues": []
+  },
+  {
+    "id": 106025641,
+    "name": "boot/x15",
+    "short_name": "x15",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 796,
+    "metadata": 1345,
+    "known_issues": []
+  }
+]

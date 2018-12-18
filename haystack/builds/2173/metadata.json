@@ -1,0 +1,30 @@
+{
+  "ltp-syscalls-tests__version": "20170516",
+  "make_kernelversion": "4.4.89-rc1",
+  "build-url": "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/16/",
+  "git branch": "linux-4.4.y",
+  "ltp-syscalls-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "libhugetlbfs__version": "2.20",
+  "kselftest__url": "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.xz",
+  "job_status": "Complete",
+  "libhugetlbfs__revision": "e44180072b796c0e28e53c4d01ef6279caaa2a99",
+  "ltp-syscalls-tests__revision": "6c6c6ca40afb3611e52486f670085762ff451e91",
+  "git commit": "6ce85a78b6151e8ab2eac57e1447d90d3efb551d",
+  "git repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "kernel-config": "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/16/defconfig",
+  "build-location": "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/16",
+  "series": "lkft",
+  "git describe": "v4.4.88-67-g6ce85a78b615",
+  "kselftest__version": "4.13",
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/37390",
+    "https://lkft.validation.linaro.org/scheduler/job/37391",
+    "https://lkft.validation.linaro.org/scheduler/job/37392"
+  ],
+  "libhugetlbfs__url": "git://github.com/libhugetlbfs/libhugetlbfs.git",
+  "job_id": [
+    "37390",
+    "37391",
+    "37392"
+  ]
+}

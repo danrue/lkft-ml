@@ -1,0 +1,26 @@
+[
+  {
+    "id": 103601848,
+    "name": "ltp-nptl-tests/nptl01",
+    "short_name": "nptl01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 898,
+    "metadata": 15800,
+    "known_issues": []
+  },
+  {
+    "id": 103601849,
+    "name": "boot/x86",
+    "short_name": "x86",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 796,
+    "metadata": 1346,
+    "known_issues": []
+  }
+]

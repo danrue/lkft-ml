@@ -1,0 +1,50 @@
+[
+  {
+    "id": 107734566,
+    "name": "ltp-nptl-tests/nptl01",
+    "short_name": "nptl01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 898,
+    "metadata": 15800,
+    "known_issues": []
+  },
+  {
+    "id": 107734567,
+    "name": "install-android-platform-tools-r2600/install-fastboot",
+    "short_name": "install-fastboot",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184082,
+    "known_issues": []
+  },
+  {
+    "id": 107734568,
+    "name": "install-android-platform-tools-r2600/install-adb",
+    "short_name": "install-adb",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 5968,
+    "metadata": 184083,
+    "known_issues": []
+  },
+  {
+    "id": 107734569,
+    "name": "boot/dragonboard-410c",
+    "short_name": "dragonboard-410c",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 796,
+    "metadata": 1340,
+    "known_issues": []
+  }
+]

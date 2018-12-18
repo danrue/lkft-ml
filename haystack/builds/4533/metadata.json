@@ -1,0 +1,278 @@
+{
+  "build-location": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/am57xx-evm/rpb/linux-stable-rc-4.4/138",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/138",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/juno/rpb/linux-stable-rc-4.4/138"
+  ],
+  "ltp-nptl-tests__version": "20180118",
+  "ltp-timers-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "build-url": [
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft/138/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft/138/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=juno,label=docker-lkft/138/"
+  ],
+  "ltp-math-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-sched-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "make_kernelversion": "4.4.116",
+  "ltp-math-tests__version": "20180118",
+  "ltp-syscalls-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-syscalls-tests__version": "20180118",
+  "kernel-defconfig": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/am57xx-evm/rpb/linux-stable-rc-4.4/138/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/138/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/juno/rpb/linux-stable-rc-4.4/138/defconfig"
+  ],
+  "ltp-filecaps-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-fs-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-cap_bounds-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-syscalls-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "kselftest__revision": "4.15",
+  "ltp-nptl-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-fsx-tests__version": "20180118",
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/121392",
+    "https://lkft.validation.linaro.org/scheduler/job/121393",
+    "https://lkft.validation.linaro.org/scheduler/job/121394",
+    "https://lkft.validation.linaro.org/scheduler/job/121395",
+    "https://lkft.validation.linaro.org/scheduler/job/121396",
+    "https://lkft.validation.linaro.org/scheduler/job/121397",
+    "https://lkft.validation.linaro.org/scheduler/job/121398",
+    "https://lkft.validation.linaro.org/scheduler/job/121399",
+    "https://lkft.validation.linaro.org/scheduler/job/121400",
+    "https://lkft.validation.linaro.org/scheduler/job/121401",
+    "https://lkft.validation.linaro.org/scheduler/job/121402",
+    "https://lkft.validation.linaro.org/scheduler/job/121403",
+    "https://lkft.validation.linaro.org/scheduler/job/121404",
+    "https://lkft.validation.linaro.org/scheduler/job/121405",
+    "https://lkft.validation.linaro.org/scheduler/job/121406",
+    "https://lkft.validation.linaro.org/scheduler/job/121407",
+    "https://lkft.validation.linaro.org/scheduler/job/121408",
+    "https://lkft.validation.linaro.org/scheduler/job/121409",
+    "https://lkft.validation.linaro.org/scheduler/job/121410",
+    "https://lkft.validation.linaro.org/scheduler/job/121411",
+    "https://lkft.validation.linaro.org/scheduler/job/121412",
+    "https://lkft.validation.linaro.org/scheduler/job/121413",
+    "https://lkft.validation.linaro.org/scheduler/job/121414",
+    "https://lkft.validation.linaro.org/scheduler/job/121415",
+    "https://lkft.validation.linaro.org/scheduler/job/121416",
+    "https://lkft.validation.linaro.org/scheduler/job/121417",
+    "https://lkft.validation.linaro.org/scheduler/job/121418",
+    "https://lkft.validation.linaro.org/scheduler/job/121419",
+    "https://lkft.validation.linaro.org/scheduler/job/121420",
+    "https://lkft.validation.linaro.org/scheduler/job/121421",
+    "https://lkft.validation.linaro.org/scheduler/job/121422",
+    "https://lkft.validation.linaro.org/scheduler/job/121423",
+    "https://lkft.validation.linaro.org/scheduler/job/121424",
+    "https://lkft.validation.linaro.org/scheduler/job/121425",
+    "https://lkft.validation.linaro.org/scheduler/job/121426",
+    "https://lkft.validation.linaro.org/scheduler/job/121427",
+    "https://lkft.validation.linaro.org/scheduler/job/121428",
+    "https://lkft.validation.linaro.org/scheduler/job/121429",
+    "https://lkft.validation.linaro.org/scheduler/job/121430",
+    "https://lkft.validation.linaro.org/scheduler/job/121431",
+    "https://lkft.validation.linaro.org/scheduler/job/121432",
+    "https://lkft.validation.linaro.org/scheduler/job/121433",
+    "https://lkft.validation.linaro.org/scheduler/job/121434",
+    "https://lkft.validation.linaro.org/scheduler/job/121435",
+    "https://lkft.validation.linaro.org/scheduler/job/121436",
+    "https://lkft.validation.linaro.org/scheduler/job/121437",
+    "https://lkft.validation.linaro.org/scheduler/job/121438",
+    "https://lkft.validation.linaro.org/scheduler/job/121439",
+    "https://lkft.validation.linaro.org/scheduler/job/121440",
+    "https://lkft.validation.linaro.org/scheduler/job/121441",
+    "https://lkft.validation.linaro.org/scheduler/job/121442",
+    "https://lkft.validation.linaro.org/scheduler/job/121443",
+    "https://lkft.validation.linaro.org/scheduler/job/121444",
+    "https://lkft.validation.linaro.org/scheduler/job/121445",
+    "https://lkft.validation.linaro.org/scheduler/job/121446",
+    "https://lkft.validation.linaro.org/scheduler/job/121447",
+    "https://lkft.validation.linaro.org/scheduler/job/121448",
+    "https://lkft.validation.linaro.org/scheduler/job/121449",
+    "https://lkft.validation.linaro.org/scheduler/job/121450",
+    "https://lkft.validation.linaro.org/scheduler/job/121451"
+  ],
+  "ltp-cap_bounds-tests__version": "20180118",
+  "ltp-hugetlb-tests__version": "20180118",
+  "ltp-ipc-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-containers-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-hugetlb-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-io-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-timers-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-fs_bind-tests__version": "20180118",
+  "ltp-fs_perms_simple-tests__version": "20180118",
+  "ltp-fs_perms_simple-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-fs_perms_simple-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-fsx-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-nptl-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "git repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "ltp-fcntl-locktests-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-cap_bounds-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-filecaps-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-pty-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "git branch": "linux-4.4.y",
+  "ltp-filecaps-tests__version": "20180118",
+  "libhugetlbfs__version": "2.20+gitAUTOINC+02df38e93e+next",
+  "kselftest__version": "4.15",
+  "ltp-ipc-tests__version": "20180118",
+  "ltp-fs_bind-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-sched-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-containers-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-hugetlb-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-sched-tests__version": "20180118",
+  "job_status": [
+    "Complete",
+    "Incomplete"
+  ],
+  "job_id": [
+    "121392",
+    "121393",
+    "121394",
+    "121395",
+    "121396",
+    "121397",
+    "121398",
+    "121399",
+    "121400",
+    "121401",
+    "121402",
+    "121403",
+    "121404",
+    "121405",
+    "121406",
+    "121407",
+    "121408",
+    "121409",
+    "121410",
+    "121411",
+    "121412",
+    "121413",
+    "121414",
+    "121415",
+    "121416",
+    "121417",
+    "121418",
+    "121419",
+    "121420",
+    "121421",
+    "121422",
+    "121423",
+    "121424",
+    "121425",
+    "121426",
+    "121427",
+    "121428",
+    "121429",
+    "121430",
+    "121431",
+    "121432",
+    "121433",
+    "121434",
+    "121435",
+    "121436",
+    "121437",
+    "121438",
+    "121439",
+    "121440",
+    "121441",
+    "121442",
+    "121443",
+    "121444",
+    "121445",
+    "121446",
+    "121447",
+    "121448",
+    "121449",
+    "121450",
+    "121451"
+  ],
+  "kernel-config": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/am57xx-evm/rpb/linux-stable-rc-4.4/138/config",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.4/138/config",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/juno/rpb/linux-stable-rc-4.4/138/config"
+  ],
+  "ltp-pty-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-securebits-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-fs-tests__version": "20180118",
+  "libhugetlbfs__url": "git://github.com/libhugetlbfs/libhugetlbfs.git",
+  "git describe": "v4.4.116",
+  "ltp-fs_bind-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-fs-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-pty-tests__version": "20180118",
+  "git commit": "0f48bd7cf032bb4cb9f433de0fef694e15fb93ef",
+  "ltp-containers-tests__version": "20180118",
+  "ltp-securebits-tests__version": "20180118",
+  "kselftest__url": "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.15.tar.xz",
+  "ltp-fcntl-locktests-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-fsx-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-math-tests__revision": "731cd34e682d297b207668be8b1d15320a9ac1b1",
+  "ltp-ipc-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-timers-tests__version": "20180118",
+  "libhugetlbfs__revision": "02df38e93e25e07f4d54edae94fb4ec90b7a2824",
+  "ltp-securebits-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "suite_versions": [
+    {
+      "kselftest": "4.15"
+    },
+    {
+      "libhugetlbfs": "2.20+gitAUTOINC+02df38e93e+next"
+    },
+    {
+      "ltp-cap_bounds-tests": "20180118"
+    },
+    {
+      "ltp-containers-tests": "20180118"
+    },
+    {
+      "ltp-fcntl-locktests-tests": "20180118"
+    },
+    {
+      "ltp-filecaps-tests": "20180118"
+    },
+    {
+      "ltp-fs-tests": "20180118"
+    },
+    {
+      "ltp-fs_bind-tests": "20180118"
+    },
+    {
+      "ltp-fs_perms_simple-tests": "20180118"
+    },
+    {
+      "ltp-fsx-tests": "20180118"
+    },
+    {
+      "ltp-hugetlb-tests": "20180118"
+    },
+    {
+      "ltp-io-tests": "20180118"
+    },
+    {
+      "ltp-ipc-tests": "20180118"
+    },
+    {
+      "ltp-math-tests": "20180118"
+    },
+    {
+      "ltp-nptl-tests": "20180118"
+    },
+    {
+      "ltp-pty-tests": "20180118"
+    },
+    {
+      "ltp-sched-tests": "20180118"
+    },
+    {
+      "ltp-securebits-tests": "20180118"
+    },
+    {
+      "ltp-syscalls-tests": "20180118"
+    },
+    {
+      "ltp-timers-tests": "20180118"
+    }
+  ],
+  "ltp-io-tests__version": "20180118",
+  "ltp-fcntl-locktests-tests__version": "20180118",
+  "ltp-io-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "series": "lkft"
+}
