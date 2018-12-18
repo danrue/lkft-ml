@@ -11,9 +11,9 @@ cache_path = './haystack'
 projects = {
     '4.4': '40',
     '4.9': '23',
-    '4.14': '58',
-    '4.19': '135',
-    'mainline': '22',
+#    '4.14': '58',
+#    '4.19': '135',
+#    'mainline': '22',
 }
 
 def urljoiner(*args):

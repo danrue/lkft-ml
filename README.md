@@ -7,7 +7,8 @@ This repository is a proof-of-concept machine learning project for
 
 First, the needle(s) and the haystack:
 - `haystack/`: Cache of historical test result data retrieved from
-  [qa-reports](https://qa-reports.linaro.org/lkft).
+  [qa-reports](https://qa-reports.linaro.org/lkft). Due to size (about 1GB on
+  disk per branch), this contains branches 4.4 and 4.9 only.
 - `needle_intermittent_issues.json`: A file of needles. In this case, tests
   that have manually been identified as intermittently failing (i.e. flaky)
   tests.
