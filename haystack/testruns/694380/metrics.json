@@ -1,0 +1,11 @@
+[
+  {
+    "name": "boot/time-x86",
+    "measurement_list": [
+      123.45
+    ],
+    "result": 123.45,
+    "is_outlier": false,
+    "metadata": 26818
+  }
+]
