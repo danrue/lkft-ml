@@ -6,18 +6,19 @@ This repository is a proof-of-concept machine learning project for
 ## Contents
 
 First, the needle(s) and the haystack:
-- haystack: Cache of historical test result data retrieved from
+- `haystack/`: Cache of historical test result data retrieved from
   [qa-reports](https://qa-reports.linaro.org/lkft).
-- needle_intermittent_issues.json: A file of needles. In this case, tests that
-  have manually been identified as intermittently failing (i.e. flaky) tests.
+- `needle_intermittent_issues.json`: A file of needles. In this case, tests
+  that have manually been identified as intermittently failing (i.e. flaky)
+  tests.
 
 The other supporting scripts:
-- get_data.py: Populate haystack. Also serves as a library for retrieving data
-  from haystack or [qa-reports](https://qa-reports.linaro.org/lkft).
-- find_intermittent_issues.py: Example naive approach to finding inconsistently
-  failing tests (i.e. flaky tests).
-- parse_known_issues.py: Used to populate needle_intermittent_issues.json
-- update.sh: Generates needle_intermittent_issues.json, using
+- `get_data.py`: Populate haystack. Also serves as a library for retrieving
+  data from haystack or [qa-reports](https://qa-reports.linaro.org/lkft).
+- `find_intermittent_issues.py`: Example naive approach to finding
+  inconsistently failing tests (i.e. flaky tests).
+- `parse_known_issues.py`: Used to populate needle_intermittent_issues.json
+- `update.sh`: Generates needle_intermittent_issues.json, using
   parse_known_issues.py.
 
 ## Design
