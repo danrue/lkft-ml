@@ -1,0 +1,50 @@
+[
+  {
+    "id": 48023522,
+    "name": "ltp-io-tests/runltp_io",
+    "short_name": "runltp_io",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 894,
+    "metadata": 15779,
+    "known_issues": []
+  },
+  {
+    "id": 48023523,
+    "name": "ltp-io-tests/aio01",
+    "short_name": "aio01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 894,
+    "metadata": 15777,
+    "known_issues": []
+  },
+  {
+    "id": 48023524,
+    "name": "ltp-io-tests/aio02",
+    "short_name": "aio02",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 894,
+    "metadata": 15778,
+    "known_issues": []
+  },
+  {
+    "id": 48023525,
+    "name": "boot/hi6220-hikey-r2",
+    "short_name": "hi6220-hikey-r2",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 796,
+    "metadata": 135598,
+    "known_issues": []
+  }
+]

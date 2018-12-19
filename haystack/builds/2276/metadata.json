@@ -1,0 +1,57 @@
+{
+  "ltp-syscalls-tests__version": "20170516",
+  "ltp-syscalls-tests__revision": "6c6c6ca40afb3611e52486f670085762ff451e91",
+  "ltp-syscalls-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "git branch": "linux-4.9.y",
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/42597",
+    "https://lkft.validation.linaro.org/scheduler/job/42598",
+    "https://lkft.validation.linaro.org/scheduler/job/42599",
+    "https://lkft.validation.linaro.org/scheduler/job/42600",
+    "https://lkft.validation.linaro.org/scheduler/job/42601",
+    "https://lkft.validation.linaro.org/scheduler/job/42602",
+    "https://lkft.validation.linaro.org/scheduler/job/42606",
+    "https://lkft.validation.linaro.org/scheduler/job/42607",
+    "https://lkft.validation.linaro.org/scheduler/job/42608"
+  ],
+  "libhugetlbfs__version": "2.20",
+  "build-location": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/60",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/60",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/juno/rpb/linux-stable-rc-4.9/60"
+  ],
+  "kernel-config": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/60/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/60/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/juno/rpb/linux-stable-rc-4.9/60/defconfig"
+  ],
+  "libhugetlbfs__revision": "e44180072b796c0e28e53c4d01ef6279caaa2a99",
+  "make_kernelversion": "4.9.53-rc1",
+  "git commit": "aceea42c68d96c58958954e4c8c23a26f8883d62",
+  "build-url": [
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/60/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/60/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=juno,label=docker-jessie-amd64/60/"
+  ],
+  "git repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "job_status": [
+    "Complete",
+    "Incomplete"
+  ],
+  "series": "lkft",
+  "git describe": "v4.9.52-65-gaceea42c68d9",
+  "kselftest__version": "4.13",
+  "kselftest__url": "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.xz",
+  "libhugetlbfs__url": "git://github.com/libhugetlbfs/libhugetlbfs.git",
+  "job_id": [
+    "42597",
+    "42598",
+    "42599",
+    "42600",
+    "42601",
+    "42602",
+    "42606",
+    "42607",
+    "42608"
+  ]
+}

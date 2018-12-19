@@ -1,0 +1,18 @@
+{
+  "kernel-commit": "2e0b83086b5756a4c7f1fd04636a20b8e15dadd4",
+  "build-url": "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/2/",
+  "job_status": "Complete",
+  "kernel-branch": "linux-4.9.y",
+  "kernel-repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "description": "Dummy tests",
+  "kernel-version": 4.9,
+  "series": "lkft",
+  "format": "Lava-Test Test Definition 1.0",
+  "kernel-describe": "v4.9.33-61-g2e0b830",
+  "name": "dummy-tests",
+  "job_id": [
+    "3586",
+    "3587",
+    "3588"
+  ]
+}

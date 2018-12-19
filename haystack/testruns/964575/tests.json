@@ -1,0 +1,174 @@
+[
+  {
+    "id": 89208064,
+    "name": "ltp-sched-tests/autogroup01",
+    "short_name": "autogroup01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15806,
+    "known_issues": []
+  },
+  {
+    "id": 89208065,
+    "name": "ltp-sched-tests/hackbench01",
+    "short_name": "hackbench01",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 904,
+    "metadata": 15807,
+    "known_issues": [
+      40
+    ]
+  },
+  {
+    "id": 89208066,
+    "name": "ltp-sched-tests/sched_getattr01",
+    "short_name": "sched_getattr01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15814,
+    "known_issues": []
+  },
+  {
+    "id": 89208067,
+    "name": "boot/qemu",
+    "short_name": "qemu",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 796,
+    "metadata": 79882,
+    "known_issues": []
+  },
+  {
+    "id": 89208068,
+    "name": "ltp-sched-tests/time-schedule01",
+    "short_name": "time-schedule01",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15818,
+    "known_issues": []
+  },
+  {
+    "id": 89208069,
+    "name": "ltp-sched-tests/trace_sched01",
+    "short_name": "trace_sched01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15819,
+    "known_issues": []
+  },
+  {
+    "id": 89208070,
+    "name": "ltp-sched-tests/pth_str01",
+    "short_name": "pth_str01",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15809,
+    "known_issues": []
+  },
+  {
+    "id": 89208071,
+    "name": "ltp-sched-tests/sched_stress",
+    "short_name": "sched_stress",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15817,
+    "known_issues": []
+  },
+  {
+    "id": 89208072,
+    "name": "ltp-sched-tests/pth_str02",
+    "short_name": "pth_str02",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15810,
+    "known_issues": []
+  },
+  {
+    "id": 89208073,
+    "name": "ltp-sched-tests/sched_getattr02",
+    "short_name": "sched_getattr02",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15815,
+    "known_issues": []
+  },
+  {
+    "id": 89208074,
+    "name": "ltp-sched-tests/pth_str03",
+    "short_name": "pth_str03",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15811,
+    "known_issues": []
+  },
+  {
+    "id": 89208075,
+    "name": "ltp-sched-tests/hackbench02",
+    "short_name": "hackbench02",
+    "status": "skip",
+    "result": null,
+    "log": null,
+    "has_known_issues": true,
+    "suite": 904,
+    "metadata": 15808,
+    "known_issues": [
+      41
+    ]
+  },
+  {
+    "id": 89208076,
+    "name": "ltp-sched-tests/sched_cli_serv",
+    "short_name": "sched_cli_serv",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15813,
+    "known_issues": []
+  },
+  {
+    "id": 89208077,
+    "name": "ltp-sched-tests/sched_setattr01",
+    "short_name": "sched_setattr01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": false,
+    "suite": 904,
+    "metadata": 15816,
+    "known_issues": []
+  }
+]

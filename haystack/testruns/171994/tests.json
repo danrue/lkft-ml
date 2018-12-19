@@ -1,0 +1,38 @@
+[
+  {
+    "id": 6158171,
+    "name": "boot/hi6220-hikey",
+    "short_name": "hi6220-hikey",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 796,
+    "metadata": 1341,
+    "known_issues": []
+  },
+  {
+    "id": 6158172,
+    "name": "ltp-fsx-tests/fsx-linux",
+    "short_name": "fsx-linux",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 892,
+    "metadata": 15753,
+    "known_issues": []
+  },
+  {
+    "id": 6158173,
+    "name": "ltp-fsx-tests/runltp_fsx",
+    "short_name": "runltp_fsx",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 892,
+    "metadata": 15754,
+    "known_issues": []
+  }
+]

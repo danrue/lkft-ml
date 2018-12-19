@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/5663/",
+  "id": 5663,
+  "testruns": "https://qa-reports.linaro.org/api/builds/5663/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/5663/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/5663/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/5663/metadata/",
+  "finished": true,
+  "version": "v4.9.93-311-g58cf6414338e",
+  "created_at": "2018-04-11T19:24:21.059748Z",
+  "datetime": "2018-04-11T19:24:21.058987Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/23/",
+  "patch_source": null,
+  "patch_baseline": null
+}

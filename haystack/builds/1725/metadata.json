@@ -1,0 +1,37 @@
+{
+  "build-location": [
+    "https://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/42",
+    "https://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/42"
+  ],
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/21468",
+    "https://lkft.validation.linaro.org/scheduler/job/21469",
+    "https://lkft.validation.linaro.org/scheduler/job/21470",
+    "https://lkft.validation.linaro.org/scheduler/job/21475",
+    "https://lkft.validation.linaro.org/scheduler/job/21476",
+    "https://lkft.validation.linaro.org/scheduler/job/21477"
+  ],
+  "build-url": [
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/42/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/42/"
+  ],
+  "job_id": [
+    "21468",
+    "21469",
+    "21470",
+    "21475",
+    "21476",
+    "21477"
+  ],
+  "kernel-describe": "v4.9.45-85-g09ebdfd66b29",
+  "kernel-branch": "linux-4.9.y",
+  "kernel-commit": "09ebdfd66b29bcde274cda7e5820b14b0418db2f",
+  "job_status": "Complete",
+  "kernel-repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "kernel-config": [
+    "https://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/42/defconfig",
+    "https://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/42/defconfig"
+  ],
+  "kselftest-version": "4.12",
+  "series": "lkft"
+}

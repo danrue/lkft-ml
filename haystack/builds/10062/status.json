@@ -1,0 +1,16 @@
+{
+  "last_updated": "2018-10-04T05:31:37.276155Z",
+  "finished": true,
+  "notified": true,
+  "notified_on_timeout": false,
+  "approved": false,
+  "tests_pass": 21080,
+  "tests_fail": 137,
+  "tests_skip": 2117,
+  "has_metrics": true,
+  "metrics_summary": 29.1703737743315,
+  "build": "https://qa-reports.linaro.org/api/builds/10062/",
+  "created_at": "2018-10-04T01:48:16.060369Z",
+  "regressions": "{\"hi6220-hikey - arm64\": [\"ltp-fs-tests/read_all_sys\"]}",
+  "fixes": "{\"qemu_arm\": [\"ltp-syscalls-tests/syslog08\"]}"
+}

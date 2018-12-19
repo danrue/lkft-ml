@@ -1,0 +1,46 @@
+{
+  "kselftest__version": "4.13",
+  "ltp-syscalls-tests__version": "20170516",
+  "build-url": [
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/55/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/55/"
+  ],
+  "git branch": "linux-4.9.y",
+  "ltp-syscalls-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "libhugetlbfs__version": "2.20",
+  "kselftest__url": "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.xz",
+  "job_status": "Complete",
+  "libhugetlbfs__revision": "e44180072b796c0e28e53c4d01ef6279caaa2a99",
+  "ltp-syscalls-tests__revision": "6c6c6ca40afb3611e52486f670085762ff451e91",
+  "git commit": "8d96ea41a3ee57a7a145054e57fe0fb1a5d19861",
+  "git repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "kernel-config": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/55/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/55/defconfig"
+  ],
+  "build-location": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/55",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/55"
+  ],
+  "series": "lkft",
+  "git describe": "v4.9.50-79-g8d96ea41a3ee",
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/31340",
+    "https://lkft.validation.linaro.org/scheduler/job/31341",
+    "https://lkft.validation.linaro.org/scheduler/job/31342",
+    "https://lkft.validation.linaro.org/scheduler/job/31344",
+    "https://lkft.validation.linaro.org/scheduler/job/31345",
+    "https://lkft.validation.linaro.org/scheduler/job/31346",
+    "https://lkft.validation.linaro.org/scheduler/job/31372"
+  ],
+  "libhugetlbfs__url": "git://github.com/libhugetlbfs/libhugetlbfs.git",
+  "job_id": [
+    "31340",
+    "31341",
+    "31342",
+    "31344",
+    "31345",
+    "31346",
+    "31372"
+  ]
+}

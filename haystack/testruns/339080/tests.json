@@ -1,0 +1,14 @@
+[
+  {
+    "id": 21833981,
+    "name": "boot/hi6220-hikey-r2",
+    "short_name": "hi6220-hikey-r2",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 796,
+    "metadata": 135598,
+    "known_issues": []
+  }
+]

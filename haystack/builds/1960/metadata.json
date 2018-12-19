@@ -1,0 +1,44 @@
+{
+  "build-location": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/50",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/50"
+  ],
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/25705",
+    "https://lkft.validation.linaro.org/scheduler/job/25706",
+    "https://lkft.validation.linaro.org/scheduler/job/25707",
+    "https://lkft.validation.linaro.org/scheduler/job/25714",
+    "https://lkft.validation.linaro.org/scheduler/job/25715",
+    "https://lkft.validation.linaro.org/scheduler/job/25716"
+  ],
+  "kselftest__version": "4.13",
+  "job_id": [
+    "25705",
+    "25706",
+    "25707",
+    "25714",
+    "25715",
+    "25716"
+  ],
+  "build-url": [
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/50/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/50/"
+  ],
+  "kernel-describe": "v4.9.49",
+  "kselftest__url": "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.xz",
+  "kernel-config": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/50/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/50/defconfig"
+  ],
+  "libhugetlbfs__revision": "e44180072b796c0e28e53c4d01ef6279caaa2a99",
+  "kernel-commit": "f07cb3489cff38984a8df4d3a0fea5d0858c1eb0",
+  "ltp-syscalls-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-syscalls-tests__version": "20170516",
+  "job_status": "Complete",
+  "kernel-repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "kernel-branch": "linux-4.9.y",
+  "libhugetlbfs__version": "2.20",
+  "libhugetlbfs__url": "git://github.com/libhugetlbfs/libhugetlbfs.git",
+  "ltp-syscalls-tests__revision": "6c6c6ca40afb3611e52486f670085762ff451e91",
+  "series": "lkft"
+}

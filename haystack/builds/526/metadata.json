@@ -1,0 +1,15 @@
+{
+  "kernel-version": 4.9,
+  "build-url": "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/8/",
+  "job_status": "Complete",
+  "job_id": [
+    "4985",
+    "4986",
+    "4987"
+  ],
+  "kernel-commit": "8041763f609c95730734eeac9290d8c9676d74d9",
+  "kernel-repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "kernel-describe": "v4.9.34-44-g8041763",
+  "kernel-branch": "linux-4.9.y",
+  "series": "lkft"
+}

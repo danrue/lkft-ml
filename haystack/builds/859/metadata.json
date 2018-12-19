@@ -1,0 +1,21 @@
+{
+  "kernel-commit": "996828f64cacae19caf065025023e86700f8cb4b",
+  "kernel-repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "build-url": "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/17/",
+  "job_id": [
+    "14320",
+    "14321",
+    "14322"
+  ],
+  "kernel-config": "https://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/17/defconfig",
+  "series": "lkft",
+  "kernel-describe": "v4.9.37-26-g996828f",
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/14320",
+    "https://lkft.validation.linaro.org/scheduler/job/14321",
+    "https://lkft.validation.linaro.org/scheduler/job/14322"
+  ],
+  "kernel-branch": "linux-4.9.y",
+  "job_status": "Complete",
+  "kselftest-version": "4.12"
+}

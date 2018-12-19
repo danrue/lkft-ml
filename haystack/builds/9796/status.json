@@ -1,0 +1,16 @@
+{
+  "last_updated": "2018-09-24T03:19:50.319353Z",
+  "finished": true,
+  "notified": true,
+  "notified_on_timeout": false,
+  "approved": false,
+  "tests_pass": 21303,
+  "tests_fail": 137,
+  "tests_skip": 2109,
+  "has_metrics": true,
+  "metrics_summary": 29.2029141120605,
+  "build": "https://qa-reports.linaro.org/api/builds/9796/",
+  "created_at": "2018-09-23T21:30:00.248531Z",
+  "regressions": null,
+  "fixes": "{\"qemu_arm\": [\"ltp-syscalls-tests/runltp_syscalls\", \"ltp-syscalls-tests/syslog08\"]}"
+}

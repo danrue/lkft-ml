@@ -1,0 +1,53 @@
+{
+  "build-location": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/51",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/52",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/52"
+  ],
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/28414",
+    "https://lkft.validation.linaro.org/scheduler/job/28415",
+    "https://lkft.validation.linaro.org/scheduler/job/28416",
+    "https://lkft.validation.linaro.org/scheduler/job/28452",
+    "https://lkft.validation.linaro.org/scheduler/job/28453",
+    "https://lkft.validation.linaro.org/scheduler/job/28454",
+    "https://lkft.validation.linaro.org/scheduler/job/28455",
+    "https://lkft.validation.linaro.org/scheduler/job/28456",
+    "https://lkft.validation.linaro.org/scheduler/job/28457"
+  ],
+  "build-url": [
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/51/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/52/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/52/"
+  ],
+  "kernel-repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "job_id": [
+    "28414",
+    "28415",
+    "28416",
+    "28452",
+    "28453",
+    "28454",
+    "28455",
+    "28456",
+    "28457"
+  ],
+  "kernel-describe": "v4.9.49-15-gedfaa5f69b96",
+  "kselftest__url": "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.xz",
+  "kernel-commit": "edfaa5f69b96ae777b0acd2bfe1da26e21592001",
+  "kselftest__version": "4.13",
+  "kernel-config": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/51/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/52/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/52/defconfig"
+  ],
+  "ltp-syscalls-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-syscalls-tests__version": "20170516",
+  "job_status": "Complete",
+  "libhugetlbfs__revision": "e44180072b796c0e28e53c4d01ef6279caaa2a99",
+  "kernel-branch": "linux-4.9.y",
+  "libhugetlbfs__version": "2.20",
+  "libhugetlbfs__url": "git://github.com/libhugetlbfs/libhugetlbfs.git",
+  "ltp-syscalls-tests__revision": "6c6c6ca40afb3611e52486f670085762ff451e91",
+  "series": "lkft"
+}

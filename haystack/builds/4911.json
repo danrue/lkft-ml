@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/4911/",
+  "id": 4911,
+  "testruns": "https://qa-reports.linaro.org/api/builds/4911/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/4911/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/4911/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/4911/metadata/",
+  "finished": true,
+  "version": "v4.9.86-66-gfaac4c330feb",
+  "created_at": "2018-03-10T02:18:22.840987Z",
+  "datetime": "2018-03-10T02:18:22.840813Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/23/",
+  "patch_source": null,
+  "patch_baseline": null
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": 21849142,
+    "name": "boot/juno-r2",
+    "short_name": "juno-r2",
+    "status": "fail",
+    "result": false,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 796,
+    "metadata": 1343,
+    "known_issues": []
+  }
+]

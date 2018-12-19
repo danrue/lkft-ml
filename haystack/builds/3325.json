@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/3325/",
+  "id": 3325,
+  "testruns": "https://qa-reports.linaro.org/api/builds/3325/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/3325/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/3325/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/3325/metadata/",
+  "finished": true,
+  "version": "v4.9.67",
+  "created_at": "2017-12-05T11:36:44.061712Z",
+  "datetime": "2017-12-05T11:36:44.061555Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/23/",
+  "patch_source": null,
+  "patch_baseline": null
+}

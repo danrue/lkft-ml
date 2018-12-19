@@ -1,0 +1,11 @@
+[
+  {
+    "name": "boot/time-qemu",
+    "measurement_list": [
+      169.8
+    ],
+    "result": 169.8,
+    "is_outlier": false,
+    "metadata": 79883
+  }
+]

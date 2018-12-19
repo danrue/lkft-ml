@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/1440/",
+  "id": 1440,
+  "testruns": "https://qa-reports.linaro.org/api/builds/1440/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/1440/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/1440/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/1440/metadata/",
+  "finished": true,
+  "version": "v4.9.41-95-gcd531da",
+  "created_at": "2017-08-10T17:07:01.936902Z",
+  "datetime": "2017-08-10T17:07:01.936717Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/23/",
+  "patch_source": null,
+  "patch_baseline": null
+}

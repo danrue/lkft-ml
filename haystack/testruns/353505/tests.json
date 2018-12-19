@@ -1,0 +1,38 @@
+[
+  {
+    "id": 23341467,
+    "name": "ltp-filecaps-tests/Filecaps",
+    "short_name": "Filecaps",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 888,
+    "metadata": 15668,
+    "known_issues": []
+  },
+  {
+    "id": 23341468,
+    "name": "ltp-filecaps-tests/runltp_filecaps",
+    "short_name": "runltp_filecaps",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 888,
+    "metadata": 15669,
+    "known_issues": []
+  },
+  {
+    "id": 23341469,
+    "name": "boot/hi6220-hikey-r2",
+    "short_name": "hi6220-hikey-r2",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 796,
+    "metadata": 135598,
+    "known_issues": []
+  }
+]

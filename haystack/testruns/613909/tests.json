@@ -1,0 +1,62 @@
+[
+  {
+    "id": 40071248,
+    "name": "ltp-pty-tests/ptem01",
+    "short_name": "ptem01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 900,
+    "metadata": 15803,
+    "known_issues": []
+  },
+  {
+    "id": 40071249,
+    "name": "ltp-pty-tests/runltp_pty",
+    "short_name": "runltp_pty",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 900,
+    "metadata": 15805,
+    "known_issues": []
+  },
+  {
+    "id": 40071250,
+    "name": "ltp-pty-tests/hangup01",
+    "short_name": "hangup01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 900,
+    "metadata": 15802,
+    "known_issues": []
+  },
+  {
+    "id": 40071251,
+    "name": "ltp-pty-tests/pty01",
+    "short_name": "pty01",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 900,
+    "metadata": 15804,
+    "known_issues": []
+  },
+  {
+    "id": 40071252,
+    "name": "boot/hi6220-hikey-r2",
+    "short_name": "hi6220-hikey-r2",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 796,
+    "metadata": 135598,
+    "known_issues": []
+  }
+]

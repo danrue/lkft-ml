@@ -1,0 +1,22 @@
+{
+  "url": "https://qa-reports.linaro.org/api/testruns/926263/",
+  "id": 926263,
+  "tests_file": "https://qa-reports.linaro.org/api/testruns/926263/tests_file/",
+  "metrics_file": "https://qa-reports.linaro.org/api/testruns/926263/metrics_file/",
+  "metadata_file": "https://qa-reports.linaro.org/api/testruns/926263/metadata_file/",
+  "log_file": "https://qa-reports.linaro.org/api/testruns/926263/log_file/",
+  "tests": "https://qa-reports.linaro.org/api/testruns/926263/tests/",
+  "metrics": "https://qa-reports.linaro.org/api/testruns/926263/metrics/",
+  "created_at": "2018-09-17T14:33:45.225097Z",
+  "completed": true,
+  "datetime": "2018-09-17T14:33:45.224878Z",
+  "build_url": null,
+  "job_id": "423016",
+  "job_status": "Complete",
+  "job_url": "https://lkft.validation.linaro.org/scheduler/job/423016",
+  "resubmit_url": null,
+  "data_processed": true,
+  "status_recorded": true,
+  "build": "https://qa-reports.linaro.org/api/builds/9652/",
+  "environment": "https://qa-reports.linaro.org/api/environments/243/"
+}

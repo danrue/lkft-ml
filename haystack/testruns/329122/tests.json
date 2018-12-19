@@ -1,0 +1,38 @@
+[
+  {
+    "id": 21348879,
+    "name": "ltp-fs_bind-tests/BindMounts",
+    "short_name": "BindMounts",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 890,
+    "metadata": 15670,
+    "known_issues": []
+  },
+  {
+    "id": 21348880,
+    "name": "boot/x86",
+    "short_name": "x86",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 796,
+    "metadata": 1346,
+    "known_issues": []
+  },
+  {
+    "id": 21348881,
+    "name": "ltp-fs_bind-tests/runltp_fs_bind",
+    "short_name": "runltp_fs_bind",
+    "status": "pass",
+    "result": true,
+    "log": null,
+    "has_known_issues": null,
+    "suite": 890,
+    "metadata": 15671,
+    "known_issues": []
+  }
+]

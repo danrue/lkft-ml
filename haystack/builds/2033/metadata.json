@@ -1,0 +1,44 @@
+{
+  "build-location": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/53",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/53"
+  ],
+  "git commit": "4ad5dcaca7428dd2bc1a6a40c948e3799c1e27ae",
+  "job_url": [
+    "https://lkft.validation.linaro.org/scheduler/job/29049",
+    "https://lkft.validation.linaro.org/scheduler/job/29050",
+    "https://lkft.validation.linaro.org/scheduler/job/29051",
+    "https://lkft.validation.linaro.org/scheduler/job/29052",
+    "https://lkft.validation.linaro.org/scheduler/job/29053",
+    "https://lkft.validation.linaro.org/scheduler/job/29054"
+  ],
+  "build-url": [
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-jessie-amd64/53/",
+    "https://ci.linaro.org/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-jessie-amd64/53/"
+  ],
+  "job_id": [
+    "29049",
+    "29050",
+    "29051",
+    "29052",
+    "29053",
+    "29054"
+  ],
+  "git branch": "linux-4.9.y",
+  "kselftest__url": "https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.xz",
+  "kselftest__version": "4.13",
+  "ltp-syscalls-tests__url": "git://github.com/linux-test-project/ltp.git",
+  "ltp-syscalls-tests__version": "20170516",
+  "job_status": "Complete",
+  "libhugetlbfs__revision": "e44180072b796c0e28e53c4d01ef6279caaa2a99",
+  "kernel-config": [
+    "http://snapshots.linaro.org/openembedded/lkft/morty/hikey/rpb/linux-stable-rc-4.9/53/defconfig",
+    "http://snapshots.linaro.org/openembedded/lkft/morty/intel-core2-32/rpb/linux-stable-rc-4.9/53/defconfig"
+  ],
+  "git repo": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable-rc.git",
+  "libhugetlbfs__version": "2.20",
+  "libhugetlbfs__url": "git://github.com/libhugetlbfs/libhugetlbfs.git",
+  "ltp-syscalls-tests__revision": "6c6c6ca40afb3611e52486f670085762ff451e91",
+  "git describe": "v4.9.50",
+  "series": "lkft"
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/9523/",
+  "id": 9523,
+  "testruns": "https://qa-reports.linaro.org/api/builds/9523/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/9523/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/9523/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/9523/metadata/",
+  "finished": true,
+  "version": "v4.9.126-61-gd4de20a6f180",
+  "created_at": "2018-09-12T19:45:16.849911Z",
+  "datetime": "2018-09-12T19:45:16.849748Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/23/",
+  "patch_source": null,
+  "patch_baseline": null
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://qa-reports.linaro.org/api/builds/4080/",
+  "id": 4080,
+  "testruns": "https://qa-reports.linaro.org/api/builds/4080/testruns/",
+  "testjobs": "https://qa-reports.linaro.org/api/builds/4080/testjobs/",
+  "status": "https://qa-reports.linaro.org/api/builds/4080/status/",
+  "metadata": "https://qa-reports.linaro.org/api/builds/4080/metadata/",
+  "finished": true,
+  "version": "v4.9.78-33-g8506ae3814f4",
+  "created_at": "2018-01-27T10:50:57.745236Z",
+  "datetime": "2018-01-27T10:50:57.745087Z",
+  "patch_id": null,
+  "keep_data": false,
+  "project": "https://qa-reports.linaro.org/api/projects/23/",
+  "patch_source": null,
+  "patch_baseline": null
+}
