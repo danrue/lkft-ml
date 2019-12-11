@@ -4,6 +4,7 @@ import json
 import os
 import os.path
 import requests
+import time
 
 squad = 'https://qa-reports.linaro.org'
 api = 'api'
@@ -50,10 +51,17 @@ class qareports:
         with open(cache_file, 'w') as f:
             json.dump(data, f, indent=2)
 
-    def get_url(self, url):
+    def get_url(self, url, retries=3):
         print(url)
         r = requests.get(url)
-        r.raise_for_status()
+        try:
+            r.raise_for_status()
+        except:
+            if retries <= 0:
+                raise
+            print("Retrying {}".format(url))
+            time.sleep(30)
+            return self.get_url(url, retries=retries-1)
         return r
 
     def get_object(self, url, cache=True):
